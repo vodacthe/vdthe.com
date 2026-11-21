@@ -1,0 +1,981 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Enterprise Systems &amp; Open-Source Lab | Vo Dac The</title>
+  <meta name="description" content="Deep-dive case studies in B2B TravelTech (Tripdata &amp; SkyJet), Industrial IoT (OpreX Asset Health Insights), Biometric IAM (Evolution Wellness), and open-source Android, AR, 3D &amp; Linux tools on GitHub." />
+  <meta name="keywords" content="Vo Dac The projects, Tripdata ERP, SkyJet SOTO SITI, OpreX Asset Health Insights, smart_companion, ar_air_mouse, decal-unwrap, face_track, vdt-sys-agent" />
+  <meta name="author" content="Vo Dac The" />
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+  <meta name="theme-color" content="#090d16" />
+
+  <link rel="canonical" href="https://vdthe.com/projects/" />
+  <link rel="alternate" hreflang="en" href="https://vdthe.com/projects/" />
+  <link rel="alternate" hreflang="vi" href="https://vdthe.com/vi/projects/" />
+  <link rel="alternate" hreflang="x-default" href="https://vdthe.com/projects/" />
+  <link rel="alternate" type="text/markdown" href="https://vdthe.com/llms.txt" title="LLM Profile Summary" />
+  <link rel="alternate" type="application/json" href="https://vdthe.com/resume.json" title="JSON Resume" />
+  <link rel="icon" type="image/x-icon" href="../favicon.ico" />
+  <link rel="icon" type="image/png" sizes="512x512" href="../assets/vdt-logo.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="../assets/apple-touch-icon.png" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://vdthe.com/projects/" />
+  <meta property="og:title" content="Enterprise Systems &amp; Open-Source Lab | Vo Dac The" />
+  <meta property="og:description" content="Deep-dive case studies in B2B TravelTech (Tripdata &amp; SkyJet), Industrial IoT (OpreX Asset Health Insights), Biometric IAM (Evolution Wellness), and open-source Android, AR, 3D &amp; Linux tools on GitHub." />
+  <meta property="og:site_name" content="Vo Dac The — CTO Portfolio" />
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:locale:alternate" content="vi_VN" />
+  <meta property="og:image" content="https://vdthe.com/assets/og-preview.jpg" />
+  <meta property="og:image:secure_url" content="https://vdthe.com/assets/og-preview.jpg" />
+  <meta property="og:image:type" content="image/jpeg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="Vo Dac The — CTO - Chief Technology Officer &amp; Hands-On Solution Architect" />
+  <meta property="profile:first_name" content="Dac The" />
+  <meta property="profile:last_name" content="Vo" />
+  <meta property="profile:username" content="vodacthe" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:url" content="https://vdthe.com/projects/" />
+  <meta name="twitter:title" content="Enterprise Systems &amp; Open-Source Lab | Vo Dac The" />
+  <meta name="twitter:description" content="Deep-dive case studies in B2B TravelTech (Tripdata &amp; SkyJet), Industrial IoT (OpreX Asset Health Insights), Biometric IAM (Evolution Wellness), and open-source Android, AR, 3D &amp; Linux tools on GitHub." />
+  <meta name="twitter:image" content="https://vdthe.com/assets/og-preview.jpg" />
+  <meta name="twitter:image:alt" content="Vo Dac The — CTO - Chief Technology Officer &amp; Hands-On Solution Architect" />
+
+  <meta itemprop="name" content="Enterprise Systems &amp; Open-Source Lab | Vo Dac The" />
+  <meta itemprop="description" content="Deep-dive case studies in B2B TravelTech (Tripdata &amp; SkyJet), Industrial IoT (OpreX Asset Health Insights), Biometric IAM (Evolution Wellness), and open-source Android, AR, 3D &amp; Linux tools on GitHub." />
+  <meta itemprop="image" content="https://vdthe.com/assets/og-preview.jpg" />
+
+  <script>
+    (function(){
+      document.documentElement.classList.add('js-ready');
+      try {
+        var t = localStorage.getItem('vdt-theme');
+        if (t === 'light' || t === 'dark') document.documentElement.setAttribute('data-theme', t);
+      } catch(e) {}
+    })();
+  </script>
+  <link rel="stylesheet" href="../assets/styles.css" />
+  <link rel="stylesheet" href="../assets/cv-print.css" />
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://vdthe.com/#website",
+      "url": "https://vdthe.com/",
+      "name": "Vo Dac The — CTO & Solution Architect",
+      "inLanguage": [
+        "en",
+        "vi"
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://vdthe.com/#person",
+      "name": "Vo Dac The",
+      "alternateName": "VDT",
+      "jobTitle": "CTO - Chief Technology Officer & Hands-On Solution Architect",
+      "description": "Technology leader and hands-on Software Engineering professional with nearly 10 years of experience (2016–Present) building high-availability distributed systems, multi-tenant microservices, cloud-native Kubernetes platforms, and pragmatic AI/LLM solutions across Travel Technology, Industrial IoT, and Identity & Access Management.",
+      "url": "https://vdthe.com/",
+      "image": "https://vdthe.com/assets/vo-dac-the.jpg",
+      "email": "mailto:work.thevo@gmail.com",
+      "telephone": "+84908195484",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Ho Chi Minh City",
+        "addressCountry": "VN"
+      },
+      "worksFor": {
+        "@type": "Organization",
+        "name": "Tripdata",
+        "url": "https://tripdata.vn"
+      },
+      "sameAs": [
+        "https://www.linkedin.com/in/vodacthe",
+        "https://github.com/vodacthe",
+        "https://decal.vdthe.com/"
+      ],
+      "knowsAbout": [
+        "Technology Strategy",
+        "Technical Leadership",
+        "Engineering Management",
+        "Technical Project Management",
+        "Software Development Lifecycle (SDLC)",
+        "Technical Decision-Making",
+        "Team Leadership",
+        "Team Mentoring & Coaching",
+        "Agile & Scrum",
+        "Sprint Planning",
+        "Code Review",
+        "Stakeholder Management",
+        "Product Engineering",
+        "Technology Roadmap Development",
+        "Engineering Process Improvement",
+        "Software Architecture",
+        "Solution Architecture",
+        "Microservices Architecture",
+        "Distributed Systems",
+        "Service-Oriented Architecture (SOA)",
+        "Multi-Tenant Architecture",
+        "Enterprise Application Architecture",
+        "Cloud-Native Architecture",
+        "API Design & Integration",
+        "Event-Driven Architecture",
+        "System Design",
+        "High Availability & Scalability",
+        "Artificial Intelligence (AI)",
+        "Generative AI",
+        "Large Language Models (LLM)",
+        "Retrieval-Augmented Generation (RAG)",
+        "AI Integration",
+        "AI Agents",
+        "Prompt Engineering",
+        "Vector Search",
+        "AI Workflow Automation",
+        "Microsoft Semantic Kernel",
+        "Microsoft Azure",
+        "Alibaba Cloud",
+        "Amazon Web Services (AWS)",
+        "Cloud Architecture",
+        "Cloud Infrastructure Management",
+        "Linux Server Administration",
+        "Windows Server Administration",
+        "Infrastructure as Code (IaC)",
+        "Terraform",
+        "Network & Server Administration",
+        "Kubernetes",
+        "Docker",
+        "Helm",
+        "CI/CD Pipeline Design",
+        "Azure DevOps",
+        "GitHub Actions",
+        "Container Orchestration",
+        "Nginx",
+        "YARP",
+        "Production Deployment & Operations",
+        "C# / .NET",
+        "RESTful API Development",
+        "Backend Development",
+        "React.js",
+        "Flutter",
+        "JavaScript",
+        "Kotlin",
+        "Python",
+        "Windows Services",
+        "PostgreSQL",
+        "Microsoft SQL Server",
+        "Redis",
+        "RabbitMQ",
+        "Azure Service Bus",
+        "Database Design",
+        "SQL Query Optimization",
+        "Database Performance Tuning",
+        "Database Administration",
+        "Connection Pooling",
+        "Asynchronous Processing",
+        "Identity & Access Management (IAM)",
+        "IdentityServer4",
+        "OpenID Connect (OIDC)",
+        "OAuth 2.0",
+        "Authentication & Authorization",
+        "Information Security",
+        "Secure API Development",
+        "Prometheus",
+        "Grafana",
+        "Loki",
+        "Tempo",
+        "OpenTelemetry",
+        "System Monitoring",
+        "Application Performance Monitoring",
+        "Distributed Tracing",
+        "Logging & Alerting",
+        "Performance Optimization",
+        "Travel Technology",
+        "B2B Travel Platforms",
+        "Airline Ticketing Systems",
+        "Hotel Distribution Systems",
+        "SOTO / SITI Ticketing Operations",
+        "Travel Agency Management Systems",
+        "Industrial IoT (IIoT)",
+        "Asset Health Monitoring",
+        "Enterprise SaaS Platforms",
+        "Digital Transformation"
+      ],
+      "hasCredential": [
+        {
+          "@type": "EducationalOccupationalCredential",
+          "name": "Microsoft Certified: AZ-305 (Designing Microsoft Azure Infrastructure Solutions)",
+          "recognizedBy": {
+            "@type": "Organization",
+            "name": "Microsoft"
+          }
+        },
+        {
+          "@type": "EducationalOccupationalCredential",
+          "name": "Project Management Fundamentals: PMI Global Standard",
+          "recognizedBy": {
+            "@type": "Organization",
+            "name": "PMI Global Standard"
+          }
+        },
+        {
+          "@type": "EducationalOccupationalCredential",
+          "name": "Deep Learning Training: Certificate of Distinction",
+          "recognizedBy": {
+            "@type": "Organization",
+            "name": "HasBrain"
+          }
+        }
+      ],
+      "award": [
+        "Developer of the Year (NashTech, 2022)",
+        "Runner-up – City-Level Vocational Skills Competition (Web Design) (Ho Chi Minh City, 2015)"
+      ]
+    },
+    {
+      "@type": "ProfilePage",
+      "@id": "https://vdthe.com/projects/#webpage",
+      "url": "https://vdthe.com/projects/",
+      "name": "Enterprise Systems & Open-Source Lab | Vo Dac The",
+      "description": "Deep-dive case studies in B2B TravelTech (Tripdata & SkyJet), Industrial IoT (OpreX Asset Health Insights), Biometric IAM (Evolution Wellness), and open-source Android, AR, 3D & Linux tools on GitHub.",
+      "inLanguage": "en-US",
+      "isPartOf": {
+        "@id": "https://vdthe.com/#website"
+      },
+      "about": {
+        "@id": "https://vdthe.com/#person"
+      },
+      "mainEntity": {
+        "@id": "https://vdthe.com/#person"
+      },
+      "breadcrumb": {
+        "@id": "https://vdthe.com/projects/#breadcrumb"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://vdthe.com/projects/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://vdthe.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Projects & Open Source",
+          "item": "https://vdthe.com/projects/"
+        }
+      ]
+    },
+    {
+      "@type": "ItemList",
+      "@id": "https://vdthe.com/projects/#oss",
+      "name": "Maker Lab, Closed-Source & Open-Source Projects by Vo Dac The",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "item": {
+            "@type": "SoftwareApplication",
+            "name": "Smart Companion & Smart Core (Smart Glasses Control Suite)",
+            "description": "Closed-source paired Android ecosystem enabling smartphones to act as a low-friction remote control, HUD bridge, and file manager for Smart Glasses, Android TVs, and tablets.",
+            "applicationCategory": "MobileApplication",
+            "url": "https://github.com/vodacthe/smart_companion",
+            "author": {
+              "@id": "https://vdthe.com/#person"
+            },
+            "programmingLanguage": "Android, Bluetooth, HUD Navigation, Remote Control, File Transfer"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "item": {
+            "@type": "SoftwareApplication",
+            "name": "AR Air Mouse — Hands-Free Gesture Cursor for AR Glasses",
+            "description": "Closed-source spatial interaction app that eliminates reaching for a phone screen while wearing AR glasses by converting subtle head motion and natural micro-gestures into a virtual pointer.",
+            "applicationCategory": "MobileApplication",
+            "url": "https://github.com/vodacthe/ar_air_mouse",
+            "author": {
+              "@id": "https://vdthe.com/#person"
+            },
+            "programmingLanguage": "Android, AccessibilityService, AR Glasses, Gesture Recognition, Speech-to-Text"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "item": {
+            "@type": "SoftwareSourceCode",
+            "name": "Decal Unwrap — Browser 3D-to-2D True-Scale Cut Template Engine",
+            "description": "Turns painted regions on 3D printable models into millimeter-accurate 1:1 flat paper templates to print, cut, and wrap physically around 3D prints.",
+            "codeRepository": "https://github.com/vodacthe/decal-unwrap",
+            "author": {
+              "@id": "https://vdthe.com/#person"
+            },
+            "programmingLanguage": "HTML5 / WebGL, 3D Mesh Unwrapping, Computational Geometry, SVG / PDF / DXF"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "item": {
+            "@type": "SoftwareSourceCode",
+            "name": "FaceTrack 6-DoF — Android Head Tracker for Simulators",
+            "description": "Low-latency 6-Degrees-of-Freedom (X/Y/Z translation + Yaw/Pitch/Roll rotation) camera head-tracking for flight, racing, and space simulators.",
+            "codeRepository": "https://github.com/vodacthe/face_track",
+            "author": {
+              "@id": "https://vdthe.com/#person"
+            },
+            "programmingLanguage": "Kotlin, Android, 6-DoF Tracking, OpenTrack, FreeTrack 2.0 / UDP, SimHub"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "item": {
+            "@type": "SoftwareSourceCode",
+            "name": "vdt-sys-agent — Zero-Dependency Linux Hardware Telemetry Agent",
+            "description": "Lightweight, one-line-install Linux server monitoring agent feeding real-time node metrics into the VDT Enterprise dashboard without pip or external runtime bloat.",
+            "codeRepository": "https://github.com/vodacthe/vdt-sys-agent",
+            "author": {
+              "@id": "https://vdthe.com/#person"
+            },
+            "programmingLanguage": "Python 3 Stdlib, Linux Telemetry, HTTP / API Key Auth, GPU / Process Monitoring, Bash Installer"
+          }
+        }
+      ]
+    }
+  ]
+}
+  </script>
+</head>
+<body>
+  <div class="cv-print" aria-hidden="true">
+    <header class="cv-header">
+      <img class="cv-photo" src="../assets/vo-dac-the.jpg" alt="Vo Dac The" width="120" height="120" />
+      <div class="cv-identity">
+        <p class="cv-name"><strong>Vo Dac The</strong> <em>CTO - Chief Technology Officer</em></p>
+        <ul class="cv-contacts"><li><svg class="cv-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4-8 5-8-5V6l8 5 8-5v2z"/></svg><span><a href="mailto:work.thevo@gmail.com">work.thevo@gmail.com</a></span></li><li><svg class="cv-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg><span><a href="tel:+84908195484">+84908195484</a></span></li><li><svg class="cv-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg><span>Ho Chi Minh, Vietnam</span></li><li><svg class="cv-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.32 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.79M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z"/></svg><span><a href="https://www.linkedin.com/in/vodacthe">linkedin.com/in/vodacthe</a></span></li><li><svg class="cv-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M19 4h-1V2h-2v2H8V2H6v2H5c-1.11 0-2 .9-2 2v14a2 2 0 0 0 2 2h14c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 16H5V9h14v11zM7 11h5v5H7z"/></svg><span>03/1995</span></li><li><svg class="cv-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.87 1.52 2.34 1.07 2.91.83.09-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.92 0-1.11.38-2 1.03-2.71-.1-.25-.45-1.29.1-2.64 0 0 .84-.27 2.75 1.02.79-.22 1.65-.33 2.5-.33.85 0 1.71.11 2.5.33 1.91-1.29 2.75-1.02 2.75-1.02.55 1.35.2 2.39.1 2.64.65.71 1.03 1.6 1.03 2.71 0 3.82-2.34 4.66-4.57 4.91.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2z"/></svg><span><a href="https://github.com/vodacthe">github.com/vodacthe</a></span></li></ul>
+      </div>
+    </header>
+    <section class="cv-section">
+      <h2 class="cv-heading"><svg class="cv-heading-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zM8 7.5a2 2 0 1 1 0 4 2 2 0 0 1 0-4zm4 9H4v-.6c0-1.3 2.7-2 4-2s4 .7 4 2v.6zm8-1.5h-6v-1.5h6V15zm0-3h-6v-1.5h6V12zm0-3h-6V7.5h6V9z"/></svg><span>Summary</span></h2>
+      <p>Technology leader and hands-on Software Engineering professional with nearly 10 years of experience (2016–Present) building high-availability distributed systems, multi-tenant microservices, cloud-native Kubernetes platforms, and pragmatic AI/LLM solutions across Travel Technology, Industrial IoT, and Identity &amp; Access Management.</p><p>Bridging executive technology strategy with deep engineering execution — mentoring high-performing teams, hardening production observability, and turning complex business operations into resilient software platforms.</p>
+    </section>
+    <section class="cv-section">
+      <h2 class="cv-heading"><svg class="cv-heading-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 7h-4V5c0-1.1-.9-2-2-2h-4c-1.1 0-2 .9-2 2v2H4c-1.1 0-2 .9-2 2v11c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V9c0-1.1-.9-2-2-2zm-6 0h-4V5h4v2z"/></svg><span>Professional Experience</span></h2>
+      <article class="cv-entry">
+        <div class="cv-entry-title"><strong class="cv-upper">CTO – Chief Technology Officer,</strong> <a href="https://tripdata.vn"><em>Tripdata</em><svg class="cv-link-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M3.9 12a3.1 3.1 0 0 1 3.1-3.1h4V7H7a5 5 0 0 0 0 10h4v-1.9H7A3.1 3.1 0 0 1 3.9 12zM8 13h8v-2H8v2zm9-6h-4v1.9h4a3.1 3.1 0 0 1 0 6.2h-4V17h4a5 5 0 0 0 0-10z"/></svg></a></div><div class="cv-entry-meta">12/2024 – Present<br />Ho Chi Minh, Vietnam</div>
+        <p class="cv-body">Leading technology strategy, software engineering, and platform development at Tripdata, a B2B travel technology infrastructure company powering digital travel distribution, agent portals, and commercial consolidator operations (including ecosystems connected with SkyJet).</p>
+        <p class="cv-label">Key Responsibilities:</p>
+        <ul class="cv-bullets"><li>Applied AI (Generative AI, LLM &amp; RAG) to replace the traditional manual booker team — automating fare-rule/policy interpretation, booking diagnostics, and ticketing operations to optimize profit margins and maximize the end-user experience.</li><li>Built a flexible pricing-configuration system and strong B2B sales tooling: sub-agents at every tier can easily declare their own service fees, with clear, real-time profit and revenue reporting.</li><li>Established proactive operations monitoring (Prometheus, Grafana, Loki, OpenTelemetry) with early error alerting, cutting recovery time (RTO) dramatically compared with traditional travel systems.</li><li>Architected a high-load, multi-tenant microservices platform (PostgreSQL, RabbitMQ, YARP/Nginx) built to integrate with the region&#39;s leading OTAs.</li><li>Designed a flexible unified API: a single API set serving many domestic and international airlines, including foreign carriers.</li><li>Define company-wide technology strategy and roadmaps; lead and mentor engineering teams with clear standards, code review culture, and delivery best practices.</li><li>Oversee end-to-end B2B travel platforms covering domestic and international airline ticketing, hotel distribution, and specialized SOTO (Sold Outside, Ticketed Outside) / SITI (Sold Inside, Ticketed Inside) workflows.</li><li>Direct multi-cloud infrastructure (Azure, AWS), Docker/Kubernetes orchestration, and CI/CD automation (GitHub Actions, Azure DevOps).</li></ul>
+        <p class="cv-body"><strong>Technology Stack:</strong> .NET Core, C#, React, Flutter, Microservices, PostgreSQL, Kubernetes, Docker, Azure, AWS, RabbitMQ, YARP, Nginx, GitHub Actions, Azure DevOps, Prometheus, Grafana, Loki, OpenTelemetry, AI/LLM, RAG.</p>
+      </article><article class="cv-entry">
+        <div class="cv-entry-title"><strong class="cv-upper">Technical Lead / Solution Architecture Support,</strong> <a href="https://www.yokogawa.com/vn/solutions/featured-topics/digital-transformation/yokogawa-cloud/asset-health-insights/"><em>Yokogawa Electric Corporation</em><svg class="cv-link-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M3.9 12a3.1 3.1 0 0 1 3.1-3.1h4V7H7a5 5 0 0 0 0 10h4v-1.9H7A3.1 3.1 0 0 1 3.9 12zM8 13h8v-2H8v2zm9-6h-4v1.9h4a3.1 3.1 0 0 1 0 6.2h-4V17h4a5 5 0 0 0 0-10z"/></svg></a></div><div class="cv-entry-meta">09/2021 – 09/2024<br />Ho Chi Minh, Vietnam</div>
+        <p class="cv-body">Contributed to OpreX Asset Health Insights, Yokogawa&#39;s cloud-based Industrial IoT (IIoT) SaaS platform unifying operational technology (OT) sensor/process telemetry with IT systems for enterprise asset monitoring and operational intelligence.</p>
+        <p class="cv-label">Key Responsibilities:</p>
+        <ul class="cv-bullets"><li>Built a robust IoT connectivity layer, load-tested with more than 2,000 devices connected concurrently without issue.</li><li>Delivered multi-platform device connectivity across MQTT, RabbitMQ, MQTTX, Azure, and other industrial channels, alongside real-time telemetry (SignalR, CoAP).</li><li>Applied machine learning to IoT telemetry to generate early-warning alerts and power flexible profit and cost calculation for plant operations.</li><li>Implemented strict role-based access control for multiple engineering teams — no team can exceed its granted permissions — using OpenID Connect (OIDC) and IdentityServer4, fit for enterprise systems.</li><li>Provided technical solutions and architectural recommendations; led technical discussions, sprint planning, and estimation across distributed engineering squads.</li><li>Mentored developers and enforced engineering standards through thorough code reviews and clean microservices boundaries in .NET Core / C#.</li><li>Supported multi-cloud deployments across Microsoft Azure, AWS, and Alibaba Cloud using Kubernetes, Docker, Terraform, Helm, and Azure DevOps CI/CD.</li></ul>
+        <p class="cv-body"><strong>Technology Stack:</strong> .NET Core, C#, Microservices, PostgreSQL, Microsoft SQL Server, RabbitMQ, SignalR, CoAP, MQTT, Machine Learning, Azure, AWS, Alibaba Cloud, Kubernetes, Docker, Terraform, Helm, Azure DevOps, OIDC, IdentityServer4.</p>
+      </article><article class="cv-entry">
+        <div class="cv-entry-title"><strong class="cv-upper">Senior Software Engineer,</strong> <em>NashTech</em></div><div class="cv-entry-meta">10/2020 – 02/2022<br />Ho Chi Minh, Vietnam</div>
+        <p class="cv-body">Engineered enterprise software solutions for Evolution Wellness, one of Asia&#39;s largest fitness and wellness operators (brands including Fitness First and Celebrity Fitness), focusing on facial recognition verification, identity management, and physical access control.</p>
+        <p class="cv-label">Key Responsibilities:</p>
+        <ul class="cv-bullets"><li>Developed facial recognition-based authentication capabilities to accurately identify and verify fitness club members.</li><li>Built identity management and membership verification microservices supporting secure, low-friction member check-ins.</li><li>Integrated backend services with physical facility access control hardware so only authorized members enter clubs.</li><li>Implemented strict authentication and authorization flows using IdentityServer4, OAuth 2.0, and OpenID Connect (OIDC) to protect sensitive member data.</li><li>Designed scalable .NET Core microservices on Microsoft Azure with Azure Service Bus and Microsoft SQL Server.</li><li>Proposed technical approaches, participated in solution design reviews, and collaborated directly with US-based stakeholders. Named NashTech Developer of the Year (2022).</li></ul>
+        <p class="cv-body"><strong>Technology Stack:</strong> C#, .NET Core, Microservices, Microsoft Azure, Azure Service Bus, Microsoft SQL Server, IdentityServer4, OAuth 2.0, OpenID Connect (OIDC), REST APIs.</p>
+      </article><article class="cv-entry">
+        <div class="cv-entry-title"><strong class="cv-upper">.NET Developer / Project Manager,</strong> <em>FPT Telecom</em></div><div class="cv-entry-meta">11/2019 – 10/2020<br />Ho Chi Minh, Vietnam</div>
+        <p class="cv-body">Joined as a Software Developer and was nominated to assume Project Manager responsibilities after six months, delivering an enterprise Lead Management System with automated queue-based distribution.</p>
+        <p class="cv-label">Key Responsibilities:</p>
+        <ul class="cv-bullets"><li>Architected and built backend business logic for customer lead intake, distribution, and tracking across sales teams.</li><li>Assumed Project Manager duties after 6 months: coordinating sprint delivery, tracking milestones, and aligning stakeholders.</li><li>Designed and implemented an automated queue-based lead assignment mechanism with a strict 15-minute SLA acceptance window — automatically re-queueing unaccepted leads to the end of the queue.</li><li>Applied Microservices and Service-Oriented Architecture (SOA) patterns to keep core distribution workflows modular.</li><li>Improved system throughput and database efficiency through Redis caching strategies and targeted SQL Server query optimization.</li></ul>
+        <p class="cv-body"><strong>Technology Stack:</strong> C#, .NET, Microservices, SOA, Redis, Microsoft SQL Server, SQL Optimization, REST APIs.</p>
+      </article><article class="cv-entry">
+        <div class="cv-entry-title"><strong class="cv-upper">Developer / System Administrator,</strong> <em>Én Việt Joint Stock Company</em></div><div class="cv-entry-meta">06/2017 – 11/2019<br />Ho Chi Minh, Vietnam</div>
+        <p class="cv-body">Served in a dual IT Manager and Software Developer role at Én Việt JSC (an IATA-accredited ticketing enterprise), building internal business platforms while safeguarding Windows Server infrastructure and uptime.</p>
+        <p class="cv-label">Key Responsibilities:</p>
+        <ul class="cv-bullets"><li>Developed internal business management software, corporate websites, backend services, and operational desktop/web applications.</li><li>Designed and implemented REST and SOAP Web APIs, background Windows Services, Webhooks, and WinForms internal tools.</li><li>Administered Windows Server infrastructure, ensuring system availability, network reliability, and operational continuity.</li><li>Created custom server-side automation utilities, infrastructure monitoring scripts, and alerting mechanisms for daily IT operations.</li></ul>
+        <p class="cv-body"><strong>Technology Stack:</strong> C#, .NET Framework, ASP.NET, REST/SOAP APIs, Windows Services, WinForms, SQL Server, Windows Server.</p>
+      </article><article class="cv-entry">
+        <div class="cv-entry-title"><strong class="cv-upper">Game Tester,</strong> <em>Gameloft Vietnam</em></div><div class="cv-entry-meta">07/2016 – 04/2017<br />Ho Chi Minh, Vietnam</div>
+        <p class="cv-body">Executed functional, gameplay, device compatibility, and in-game analytics validation across mobile game builds in collaboration with engineering and QA teams.</p>
+        <p class="cv-label">Key Responsibilities:</p>
+        <ul class="cv-bullets"><li>Executed structured functional and gameplay test suites to ensure adherence to production quality standards.</li><li>Validated in-game event tracking and analytics payloads against expected specifications.</li><li>Tested mobile builds via internal deployment servers and diagnostic tools across diverse mobile hardware.</li><li>Partnered with developers and cross-functional teams to reproduce, document, and verify bug fixes.</li></ul>
+        <p class="cv-body"><strong>Technology Stack:</strong> Software Testing, Quality Assurance, Functional Testing, Mobile Application Testing, Bug Reporting.</p>
+      </article><article class="cv-entry">
+        <div class="cv-entry-title"><strong class="cv-upper">Intern Mobile Game Developer (Unity),</strong> <em>PIXA Studio (now PSA Solutions)</em></div><div class="cv-entry-meta">01/2016 – 05/2016<br />Ho Chi Minh, Vietnam</div>
+        <p class="cv-body">Started professional software engineering career developing mobile gameplay mechanics in C# / Unity and integrating mobile monetization and in-app billing pipelines.</p>
+        <p class="cv-label">Key Responsibilities:</p>
+        <ul class="cv-bullets"><li>Researched and implemented gameplay mechanics and new mobile game features in Unity &amp; C#.</li><li>Maintained and debugged mobile game client functionality.</li><li>Integrated advertising and mediation SDKs including Google AdMob, Vungle, and Unity Ads.</li><li>Implemented in-app purchase (IAP) flows using Google Play In-App Billing.</li></ul>
+        <p class="cv-body"><strong>Technology Stack:</strong> C#, Unity, Unity Ads, Google AdMob, Vungle, Google Play In-App Billing.</p>
+      </article>
+    </section>
+    <section class="cv-section">
+      <h2 class="cv-heading"><svg class="cv-heading-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M10 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V8c0-1.1-.9-2-2-2h-8l-2-2z"/></svg><span>Key Projects</span></h2>
+      <article class="cv-entry">
+        <div class="cv-entry-title"><a href="https://tripdata.vn"><strong>Tripdata B2B Travel Infrastructure &amp; AI Distribution Ecosystem</strong><svg class="cv-link-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M3.9 12a3.1 3.1 0 0 1 3.1-3.1h4V7H7a5 5 0 0 0 0 10h4v-1.9H7A3.1 3.1 0 0 1 3.9 12zM8 13h8v-2H8v2zm9-6h-4v1.9h4a3.1 3.1 0 0 1 0 6.2h-4V17h4a5 5 0 0 0 0-10z"/></svg></a>, <em>Tripdata (with SkyJet consolidator operations)</em></div><div class="cv-entry-meta">12/2024 – Present</div>
+        <p class="cv-body">Modernizing fragmented B2B airline ticketing, hotel distribution, and agency operations across multi-provider suppliers (GDS, LCCs, regional carriers, eSIM, transfers) and specialized SOTO/SITI ticketing channels.</p>
+        <ul class="cv-bullets"><li>AI-driven operations (Generative AI, LLM &amp; RAG) replacing the traditional booker team: automated fare-rule/policy interpretation and booking diagnostics that optimize profit and maximize the user experience.</li><li>Flexible pricing-configuration engine and B2B sales tooling — sub-agents easily declare their own service fees, with clear profit and revenue statistics in the Travel ERP.</li><li>One flexible unified Travel API serving many domestic and international airlines (including foreign carriers), with automated supplier fallback.</li><li>High-load multi-tenant .NET Core microservices behind YARP and Nginx, with PostgreSQL and RabbitMQ event pipelines, ready to connect with the region&#39;s leading OTAs.</li><li>Production Kubernetes on Azure and AWS with OpenTelemetry, Prometheus, Grafana, and Loki monitoring — early error alerts and far faster RTO than traditional systems.</li></ul>
+        <p class="cv-body"><strong>Technology Stack:</strong> .NET Core, React, Flutter, PostgreSQL, RabbitMQ, YARP, Kubernetes, Azure/AWS, LLM &amp; RAG, OpenTelemetry.</p>
+      </article><article class="cv-entry">
+        <div class="cv-entry-title"><a href="https://www.yokogawa.com/vn/solutions/featured-topics/digital-transformation/yokogawa-cloud/asset-health-insights/"><strong>OpreX Asset Health Insights — Multi-Cloud IIoT SaaS</strong><svg class="cv-link-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M3.9 12a3.1 3.1 0 0 1 3.1-3.1h4V7H7a5 5 0 0 0 0 10h4v-1.9H7A3.1 3.1 0 0 1 3.9 12zM8 13h8v-2H8v2zm9-6h-4v1.9h4a3.1 3.1 0 0 1 0 6.2h-4V17h4a5 5 0 0 0 0-10z"/></svg></a>, <em>Yokogawa Electric Corporation</em></div><div class="cv-entry-meta">09/2021 – 09/2024</div>
+        <p class="cv-body">Enterprise plant asset monitoring and Asset Performance Management (APM) platform ingesting heterogeneous Operational Technology (OT) sensor streams and aggregating them into structured ISA-95 plant hierarchies.</p>
+        <ul class="cv-bullets"><li>Robust IoT connectivity layer load-tested with 2,000+ concurrently connected devices without issue.</li><li>Multi-platform connectivity across MQTT, RabbitMQ, MQTTX, Azure, CoAP, and real-time SignalR streams, bridging OT devices with enterprise IT cloud analytics.</li><li>Machine learning on IoT telemetry for early-warning alerts and flexible profit and cost calculation.</li><li>Strict role-based access control for multiple engineering teams via IdentityServer4 and OpenID Connect (OIDC) — no one exceeds their granted permissions — built for enterprise systems.</li><li>Multi-cloud Kubernetes provisioned via Terraform &amp; Helm across AWS, Microsoft Azure, and Alibaba Cloud, backed by PostgreSQL, Microsoft SQL Server, and RabbitMQ.</li></ul>
+        <p class="cv-body"><strong>Technology Stack:</strong> .NET Core, Microservices, MQTT, RabbitMQ, Machine Learning, CoAP, SignalR, PostgreSQL, SQL Server, Terraform, Helm, Kubernetes, AWS/Azure/Alibaba Cloud, OIDC.</p>
+      </article><article class="cv-entry">
+        <div class="cv-entry-title"><strong>Biometric Facial Recognition &amp; Facility Access Control Platform</strong>, <em>NashTech · Client: Evolution Wellness</em></div><div class="cv-entry-meta">10/2020 – 02/2022</div>
+        <p class="cv-body">Securing and streamlining member identity verification and physical club turnstile entry across Evolution Wellness&#39;s regional fitness networks while safeguarding biometric and membership records.</p>
+        <ul class="cv-bullets"><li>Designed .NET Core microservices handling facial recognition matching workflows, membership entitlement validation, and physical access hardware integration.</li><li>Secured inter-service and client boundaries with IdentityServer4, OAuth 2.0, and OpenID Connect (OIDC).</li><li>Deployed on Microsoft Azure utilizing Azure Service Bus for reliable asynchronous membership state synchronization and Microsoft SQL Server.</li></ul>
+        <p class="cv-body"><strong>Technology Stack:</strong> .NET Core, C#, Microsoft Azure, Azure Service Bus, SQL Server, IdentityServer4, OAuth 2.0, OIDC.</p>
+      </article><article class="cv-entry">
+        <div class="cv-entry-title"><strong>Queue-Based Automated Lead Management &amp; SLA Routing Engine</strong>, <em>FPT Telecom</em></div><div class="cv-entry-meta">11/2019 – 10/2020</div>
+        <p class="cv-body">Eliminating manual lead cherry-picking and uneven response times across distributed telecom sales teams through deterministic queue orchestration.</p>
+        <ul class="cv-bullets"><li>Built an automated queue-based lead assignment service enforcing a strict 15-minute acceptance SLA: unaccepted leads are automatically rotated back to the end of the distribution queue.</li><li>Structured around SOA and Microservices principles with Redis caching for hot queue/state reads and optimized SQL Server queries for reporting.</li><li>Led both technical backend implementation and project management coordination after 6 months on the project.</li></ul>
+        <p class="cv-body"><strong>Technology Stack:</strong> C#, .NET, Microservices, SOA, Redis, Microsoft SQL Server, SQL Optimization, REST APIs.</p>
+      </article><article class="cv-entry">
+        <div class="cv-entry-title"><strong>Internal Aviation Ticketing ERP, Webhooks &amp; Windows Server Automation</strong>, <em>Én Việt Joint Stock Company</em></div><div class="cv-entry-meta">06/2017 – 11/2019</div>
+        <p class="cv-body">Supporting daily airline agency operations, partner integrations, and 24/7 internal infrastructure reliability in an IATA ticketing enterprise.</p>
+        <ul class="cv-bullets"><li>Engineered internal business management apps, REST &amp; SOAP Web APIs, Windows Services, webhook receivers, and WinForms operational tools on .NET Framework &amp; SQL Server.</li><li>Built server-side automation, health monitoring, and incident alerting scripts across Windows Server environments.</li></ul>
+        <p class="cv-body"><strong>Technology Stack:</strong> C#, .NET Framework, ASP.NET, REST/SOAP APIs, Windows Services, WinForms, SQL Server, Windows Server.</p>
+      </article><article class="cv-entry">
+        <div class="cv-entry-title"><a href="https://github.com/vodacthe/smart_companion"><strong>Smart Companion &amp; Smart Core (Smart Glasses Control Suite)</strong><svg class="cv-link-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M3.9 12a3.1 3.1 0 0 1 3.1-3.1h4V7H7a5 5 0 0 0 0 10h4v-1.9H7A3.1 3.1 0 0 1 3.9 12zM8 13h8v-2H8v2zm9-6h-4v1.9h4a3.1 3.1 0 0 1 0 6.2h-4V17h4a5 5 0 0 0 0-10z"/></svg></a>, <em>github.com/vodacthe/smart_companion</em></div><div class="cv-entry-meta">Closed Source</div>
+        <p class="cv-body">Closed-source paired Android ecosystem enabling smartphones to act as a low-friction remote control, HUD bridge, and file manager for Smart Glasses, Android TVs, and tablets.</p>
+        <ul class="cv-bullets"><li>Dual-app architecture: Smart Core runs on the target glasses/TV receiver while Smart Companion runs on the controller phone over Bluetooth.</li><li>Supports notification mirroring, HUD navigation cues, remote screen recording with live timer, and fast wireless directory/file transfers.</li></ul>
+        <p class="cv-body"><strong>Technology Stack:</strong> Android, Bluetooth, HUD Navigation, Remote Control, File Transfer.</p>
+      </article><article class="cv-entry">
+        <div class="cv-entry-title"><a href="https://github.com/vodacthe/ar_air_mouse"><strong>AR Air Mouse — Hands-Free Gesture Cursor for AR Glasses</strong><svg class="cv-link-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M3.9 12a3.1 3.1 0 0 1 3.1-3.1h4V7H7a5 5 0 0 0 0 10h4v-1.9H7A3.1 3.1 0 0 1 3.9 12zM8 13h8v-2H8v2zm9-6h-4v1.9h4a3.1 3.1 0 0 1 0 6.2h-4V17h4a5 5 0 0 0 0-10z"/></svg></a>, <em>github.com/vodacthe/ar_air_mouse</em></div><div class="cv-entry-meta">Closed Source</div>
+        <p class="cv-body">Closed-source spatial interaction app that eliminates reaching for a phone screen while wearing AR glasses by converting subtle head motion and natural micro-gestures into a virtual pointer.</p>
+        <ul class="cv-bullets"><li>Uses Android AccessibilityService API to render a floating virtual cursor and dispatch touch/scroll/navigation gestures globally.</li><li>Supports custom gesture mapping (including bite/tap triggers), zoom/scroll actions, and built-in Speech-to-Text dictation.</li></ul>
+        <p class="cv-body"><strong>Technology Stack:</strong> Android, AccessibilityService, AR Glasses, Gesture Recognition, Speech-to-Text.</p>
+      </article><article class="cv-entry">
+        <div class="cv-entry-title"><a href="https://decal.vdthe.com/"><strong>Decal Unwrap — Browser 3D-to-2D True-Scale Cut Template Engine</strong><svg class="cv-link-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M3.9 12a3.1 3.1 0 0 1 3.1-3.1h4V7H7a5 5 0 0 0 0 10h4v-1.9H7A3.1 3.1 0 0 1 3.9 12zM8 13h8v-2H8v2zm9-6h-4v1.9h4a3.1 3.1 0 0 1 0 6.2h-4V17h4a5 5 0 0 0 0-10z"/></svg></a>, <em>github.com/vodacthe/decal-unwrap</em></div><div class="cv-entry-meta">Open Source</div>
+        <p class="cv-body">Turns painted regions on 3D printable models into millimeter-accurate 1:1 flat paper templates to print, cut, and wrap physically around 3D prints.</p>
+        <ul class="cv-bullets"><li>100% client-side browser geometry pipeline supporting STL, OBJ, 3MF, PLY, and GLB files, plus 1:1 3D plate extrusion from scanned paper sketches.</li><li>Includes ridge-aware fill/brush/cut painting tools, low-stretch surface flattening, multi-sheet nesting (A2–A6, Letter, Legal), and PDF/SVG/DXF export.</li></ul>
+        <p class="cv-body"><strong>Technology Stack:</strong> HTML5 / WebGL, 3D Mesh Unwrapping, Computational Geometry, SVG / PDF / DXF.</p>
+      </article><article class="cv-entry">
+        <div class="cv-entry-title"><a href="https://github.com/vodacthe/face_track"><strong>FaceTrack 6-DoF — Android Head Tracker for Simulators</strong><svg class="cv-link-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M3.9 12a3.1 3.1 0 0 1 3.1-3.1h4V7H7a5 5 0 0 0 0 10h4v-1.9H7A3.1 3.1 0 0 1 3.9 12zM8 13h8v-2H8v2zm9-6h-4v1.9h4a3.1 3.1 0 0 1 0 6.2h-4V17h4a5 5 0 0 0 0-10z"/></svg></a>, <em>github.com/vodacthe/face_track</em></div><div class="cv-entry-meta">Open Source</div>
+        <p class="cv-body">Low-latency 6-Degrees-of-Freedom (X/Y/Z translation + Yaw/Pitch/Roll rotation) camera head-tracking for flight, racing, and space simulators.</p>
+        <ul class="cv-bullets"><li>Written in Kotlin for Android and engineered for compatibility with OpenTrack, FreeTrack 2.0 / TrackIR protocols, and SimHub.</li><li>Streams smooth head-pose telemetry over UDP to simulation titles such as MSFS 2020/2024, DCS World, ETS2, and Assetto Corsa.</li></ul>
+        <p class="cv-body"><strong>Technology Stack:</strong> Kotlin, Android, 6-DoF Tracking, OpenTrack, FreeTrack 2.0 / UDP, SimHub.</p>
+      </article><article class="cv-entry">
+        <div class="cv-entry-title"><a href="https://github.com/vodacthe/vdt-sys-agent"><strong>vdt-sys-agent — Zero-Dependency Linux Hardware Telemetry Agent</strong><svg class="cv-link-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M3.9 12a3.1 3.1 0 0 1 3.1-3.1h4V7H7a5 5 0 0 0 0 10h4v-1.9H7A3.1 3.1 0 0 1 3.9 12zM8 13h8v-2H8v2zm9-6h-4v1.9h4a3.1 3.1 0 0 1 0 6.2h-4V17h4a5 5 0 0 0 0-10z"/></svg></a>, <em>github.com/vodacthe/vdt-sys-agent</em></div><div class="cv-entry-meta">Open Source</div>
+        <p class="cv-body">Lightweight, one-line-install Linux server monitoring agent feeding real-time node metrics into the VDT Enterprise dashboard without pip or external runtime bloat.</p>
+        <ul class="cv-bullets"><li>Built exclusively on Python 3.8+ standard library exposing HTTP endpoints secured via auto-generated x-api-key authentication.</li><li>Collects CPU, RAM, swap, disk, listening dev-server ports, top processes by CPU/RAM, and GPU metrics across NVIDIA, AMD, and Intel hardware.</li></ul>
+        <p class="cv-body"><strong>Technology Stack:</strong> Python 3 Stdlib, Linux Telemetry, HTTP / API Key Auth, GPU / Process Monitoring, Bash Installer.</p>
+      </article>
+    </section>
+    <section class="cv-section">
+      <h2 class="cv-heading"><svg class="cv-heading-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M9.4 16.6 4.8 12l4.6-4.6L8 6l-6 6 6 6 1.4-1.4zm5.2 0 4.6-4.6-4.6-4.6L16 6l6 6-6 6-1.4-1.4z"/></svg><span>Skills</span></h2>
+      <p class="cv-line"><strong>Technology Leadership &amp; Management:</strong> Technology Strategy, Technical Leadership, Engineering Management, Technical Project Management, Software Development Lifecycle (SDLC), Technical Decision-Making, Team Leadership, Team Mentoring &amp; Coaching, Agile &amp; Scrum, Sprint Planning, Code Review, Stakeholder Management, Product Engineering, Technology Roadmap Development, Engineering Process Improvement.</p><p class="cv-line"><strong>Software Architecture &amp; System Design:</strong> Software Architecture, Solution Architecture, Microservices Architecture, Distributed Systems, Service-Oriented Architecture (SOA), Multi-Tenant Architecture, Enterprise Application Architecture, Cloud-Native Architecture, API Design &amp; Integration, Event-Driven Architecture, System Design, High Availability &amp; Scalability.</p><p class="cv-line"><strong>Artificial Intelligence &amp; Emerging Technologies:</strong> Artificial Intelligence (AI), Generative AI, Large Language Models (LLM), Retrieval-Augmented Generation (RAG), AI Integration, AI Agents, Prompt Engineering, Vector Search, AI Workflow Automation, Microsoft Semantic Kernel.</p><p class="cv-line"><strong>Cloud Computing &amp; Infrastructure:</strong> Microsoft Azure, Alibaba Cloud, Amazon Web Services (AWS), Cloud Architecture, Cloud Infrastructure Management, Linux Server Administration, Windows Server Administration, Infrastructure as Code (IaC), Terraform, Network &amp; Server Administration.</p><p class="cv-line"><strong>DevOps &amp; Containerization:</strong> Kubernetes, Docker, Helm, CI/CD Pipeline Design, Azure DevOps, GitHub Actions, Container Orchestration, Nginx, YARP, Production Deployment &amp; Operations.</p><p class="cv-line"><strong>Software Engineering &amp; Programming:</strong> C# / .NET, RESTful API Development, Backend Development, React.js, Flutter, JavaScript, Kotlin, Python, Windows Services.</p><p class="cv-line"><strong>Database &amp; Messaging:</strong> PostgreSQL, Microsoft SQL Server, Redis, RabbitMQ, Azure Service Bus, Database Design, SQL Query Optimization, Database Performance Tuning, Database Administration, Connection Pooling, Asynchronous Processing.</p><p class="cv-line"><strong>Security &amp; Identity Management:</strong> Identity &amp; Access Management (IAM), IdentityServer4, OpenID Connect (OIDC), OAuth 2.0, Authentication &amp; Authorization, Information Security, Secure API Development.</p><p class="cv-line"><strong>Monitoring &amp; Observability:</strong> Prometheus, Grafana, Loki, Tempo, OpenTelemetry, System Monitoring, Application Performance Monitoring, Distributed Tracing, Logging &amp; Alerting, Performance Optimization.</p><p class="cv-line"><strong>Industry &amp; Domain Expertise:</strong> Travel Technology, B2B Travel Platforms, Airline Ticketing Systems, Hotel Distribution Systems, SOTO / SITI Ticketing Operations, Travel Agency Management Systems, Industrial IoT (IIoT), Asset Health Monitoring, Enterprise SaaS Platforms, Digital Transformation.</p>
+    </section>
+    <section class="cv-section">
+      <h2 class="cv-heading"><svg class="cv-heading-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M14 2H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V8l-6-6zm-1 7V3.5L18.5 9H13zm-1 4.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5z"/></svg><span>Certificates</span></h2>
+      <p class="cv-line"><strong>Microsoft Certified: AZ-305 (Designing Microsoft Azure Infrastructure Solutions):</strong> Passed October 18, 2024</p><p class="cv-line"><strong>Project Management Fundamentals: PMI Global Standard:</strong> PMF Number: 170720203260 <span class="cv-sep">|</span> July 17, 2020</p><p class="cv-line"><strong>Deep Learning Training: Certificate of Distinction:</strong> HasBrain <span class="cv-sep">|</span> December 2018</p>
+    </section>
+    <section class="cv-section">
+      <h2 class="cv-heading"><svg class="cv-heading-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a7 7 0 0 0-4 12.74V22l4-2 4 2v-7.26A7 7 0 0 0 12 2zm0 3a4 4 0 1 1 0 8 4 4 0 0 1 0-8z"/></svg><span>Awards</span></h2>
+      <article class="cv-entry">
+        <div class="cv-entry-title"><strong>Developer of the Year,</strong> <em>NashTech</em></div><div class="cv-entry-meta">2022</div>
+        <p class="cv-body">Recognized for outstanding technical contributions, architectural ownership on Evolution Wellness biometric IAM systems, and commitment to engineering excellence.</p>
+      </article><article class="cv-entry">
+        <div class="cv-entry-title"><strong>Runner-up – City-Level Vocational Skills Competition (Web Design),</strong> <em>Ho Chi Minh City</em></div><div class="cv-entry-meta">2015</div>
+        <p class="cv-body">Awarded second place in Ho Chi Minh City&#39;s vocational skills competition specializing in Web Design, recognizing strong front-end craft and problem-solving.</p>
+      </article>
+    </section>
+  </div>
+  <script>
+    // Warm the print-only CV font so it is ready before the user opens the print dialog.
+    window.addEventListener("load", function () {
+      if (!document.fonts || !document.fonts.load) return;
+      ["400 1em", "700 1em", "italic 400 1em", "italic 700 1em"].forEach(function (f) {
+        document.fonts.load(f + ' "CV Alegreya"').catch(function () {});
+      });
+    });
+  </script>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="../">
+        <img class="brand-logo" src="../assets/vdt-logo.png" alt="VDT Monogram Logo" width="34" height="34" />
+        <span class="brand-text">
+          <strong>Vo Dac The</strong>
+          <small>CTO · Solution Architect · Systems Engineer</small>
+        </span>
+      </a>
+
+      <nav class="ide-tabs" aria-label="Module Navigation">
+        <a class="ide-tab" data-tab-index="1" href="../full/">01 overview.ts</a><a class="ide-tab" data-tab-index="2" href="../experience/">02 experience.cs</a><a class="ide-tab is-active" data-tab-index="3" href="../projects/" aria-current="page">03 projects.json</a><a class="ide-tab" data-tab-index="4" href="../skills/">04 skills.yaml</a><a class="ide-tab" data-tab-index="5" href="../credentials/">05 credentials.md</a><a class="ide-tab" data-tab-index="6" href="../contact/">06 contact.sh</a>
+      </nav>
+
+      <div class="header-actions">
+        <a class="tool-btn" href="../">← Interactive Home</a>
+        <button type="button" id="cmd-trigger" class="tool-btn" aria-label="Command Palette">⌘K</button>
+        <button type="button" id="stream-toggle" class="tool-btn" aria-pressed="true">Stream: ON</button>
+        <a class="tool-btn lang-switch" href="../vi/projects/" title="Switch to Vietnamese">VI</a>
+        <button type="button" id="theme-toggle" class="tool-btn" aria-label="Toggle theme">◐</button>
+        <button type="button" id="print-btn" class="tool-btn hide-sm">Export PDF</button>
+      </div>
+    </div>
+    <div id="scroll-progress" class="scroll-progress" aria-hidden="true"></div>
+  </header>
+
+  <main id="main-content" class="container">
+    <div id="chapter-stream" data-locale="en" data-start-index="3">
+      <article class="chapter" id="chapter-projects" data-chapter-index="3" data-page-key="projects">
+  
+  <header class="chapter-header">
+    <p class="eyebrow">// 03 · SYSTEMS ARCHITECTURE, MAKER LAB &amp; OPEN SOURCE</p>
+    <h1 class="chapter-title">Enterprise Case Studies, AR/Wearable Products &amp; Open Source</h1>
+    <p class="chapter-intro">From mission-critical B2B TravelTech and multi-cloud Industrial IoT platforms to closed-source Android AR/wearable products, browser-native 3D geometry apps, and zero-dependency Linux telemetry agents.</p>
+    <div class="filter-bar" role="group" aria-label="Project filters" data-filter-group="projects">
+      <button type="button" class="filter-chip is-active" data-filter-value="all">All Projects (10)</button><button type="button" class="filter-chip" data-filter-value="enterprise">Enterprise Architecture (5)</button><button type="button" class="filter-chip" data-filter-value="closedsource">Closed Source · AR &amp; Wearables (2)</button><button type="button" class="filter-chip" data-filter-value="opensource">Open Source (3)</button>
+    </div>
+  </header>
+  <div class="projects-grid" data-filter-target="projects">
+    
+      <article class="card project-card has-gallery" data-category="enterprise" id="project-tripdata-platform">
+        <div class="project-meta">
+          <span class="badge badge-accent">ENTERPRISE · B2B TRAVELTECH</span>
+          <span class="mono-dim">12/2024 – Present</span>
+        </div>
+        <h3 class="project-title">Tripdata B2B Travel Infrastructure &amp; AI Distribution Ecosystem</h3>
+        <p class="project-org">Tripdata (with SkyJet consolidator operations)</p>
+        <p class="project-context">Modernizing fragmented B2B airline ticketing, hotel distribution, and agency operations across multi-provider suppliers (GDS, LCCs, regional carriers, eSIM, transfers) and specialized SOTO/SITI ticketing channels.</p>
+        <ul class="bullet-list">
+          <li>AI-driven operations (Generative AI, LLM &amp; RAG) replacing the traditional booker team: automated fare-rule/policy interpretation and booking diagnostics that optimize profit and maximize the user experience.</li><li>Flexible pricing-configuration engine and B2B sales tooling — sub-agents easily declare their own service fees, with clear profit and revenue statistics in the Travel ERP.</li><li>One flexible unified Travel API serving many domestic and international airlines (including foreign carriers), with automated supplier fallback.</li><li>High-load multi-tenant .NET Core microservices behind YARP and Nginx, with PostgreSQL and RabbitMQ event pipelines, ready to connect with the region&#39;s leading OTAs.</li><li>Production Kubernetes on Azure and AWS with OpenTelemetry, Prometheus, Grafana, and Loki monitoring — early error alerts and far faster RTO than traditional systems.</li>
+        </ul>
+        <div class="tag-list">
+          <span class="tag">.NET Core</span><span class="tag">React</span><span class="tag">Flutter</span><span class="tag">PostgreSQL</span><span class="tag">RabbitMQ</span><span class="tag">YARP</span><span class="tag">Kubernetes</span><span class="tag">Azure/AWS</span><span class="tag">LLM &amp; RAG</span><span class="tag">OpenTelemetry</span>
+        </div>
+        <div class="card-links"><a class="chip-link" href="https://tripdata.vn" target="_blank" rel="noopener noreferrer">↗ tripdata.vn</a><a class="chip-link" href="https://skyjet.vn" target="_blank" rel="noopener noreferrer">↗ skyjet.vn</a></div>
+        
+        <div class="media-gallery" data-media-gallery>
+          <div class="gallery-head">
+            <span class="mono-index">// SYSTEM UI &amp; PLATFORM SNAPSHOTS (8)</span>
+            <h4 class="gallery-title">Tripdata Platform &amp; B2B Ecosystem — Production Interface Showcase (Click to enlarge)</h4>
+          </div>
+          <div class="gallery-grid">
+            <figure class="gallery-item">
+              <a class="gallery-thumb" href="../assets/tripdata/01-b2b-portal-home.png" data-rel-root="assets/tripdata/01-b2b-portal-home.png" data-lightbox-item data-lightbox-index="0" data-lightbox-title="B2B Agent Workspace &amp; Ecosystem Launchpad" data-lightbox-caption="Unified B2B portal covering domestic/international flights, Fare Watch, fixed-price VJ, SOTO international, hotels, travel eSIM, Visa &amp; Fast Track, Voucher vault, PNR import, online check-in, and AI assistant." target="_blank" rel="noopener noreferrer">
+                <img src="../assets/tripdata/01-b2b-portal-home.png" data-rel-root="assets/tripdata/01-b2b-portal-home.png" alt="B2B Agent Workspace &amp; Ecosystem Launchpad — Unified B2B portal covering domestic/international flights, Fare Watch, fixed-price VJ, SOTO international, hotels, travel eSIM, Visa &amp; Fast Track, Voucher vault, PNR import, online check-in, and AI assistant." width="1566" height="1024" loading="lazy" decoding="async" />
+                <span class="gallery-zoom-badge" aria-hidden="true">⤢ 01</span>
+              </a>
+              <figcaption class="gallery-caption">
+                <strong>B2B Agent Workspace &amp; Ecosystem Launchpad</strong>
+                <span>Unified B2B portal covering domestic/international flights, Fare Watch, fixed-price VJ, SOTO international, hotels, travel eSIM, Visa &amp; Fast Track, Voucher vault, PNR import, online check-in, and AI assistant.</span>
+              </figcaption>
+            </figure>
+            <figure class="gallery-item">
+              <a class="gallery-thumb" href="../assets/tripdata/02-multi-airline-search.png" data-rel-root="assets/tripdata/02-multi-airline-search.png" data-lightbox-item data-lightbox-index="1" data-lightbox-title="Multi-Airline Flight Matrix, Dynamic Pricing &amp; Voucher Engine" data-lightbox-caption="Real-time fare comparison across airlines with automated voucher/promo code calculation, configurable service fees, and dynamic fare display filters." target="_blank" rel="noopener noreferrer">
+                <img src="../assets/tripdata/02-multi-airline-search.png" data-rel-root="assets/tripdata/02-multi-airline-search.png" alt="Multi-Airline Flight Matrix, Dynamic Pricing &amp; Voucher Engine — Real-time fare comparison across airlines with automated voucher/promo code calculation, configurable service fees, and dynamic fare display filters." width="1572" height="1025" loading="lazy" decoding="async" />
+                <span class="gallery-zoom-badge" aria-hidden="true">⤢ 02</span>
+              </a>
+              <figcaption class="gallery-caption">
+                <strong>Multi-Airline Flight Matrix, Dynamic Pricing &amp; Voucher Engine</strong>
+                <span>Real-time fare comparison across airlines with automated voucher/promo code calculation, configurable service fees, and dynamic fare display filters.</span>
+              </figcaption>
+            </figure>
+            <figure class="gallery-item">
+              <a class="gallery-thumb" href="../assets/tripdata/03-booking-checkout.png" data-rel-root="assets/tripdata/03-booking-checkout.png" data-lightbox-item data-lightbox-index="2" data-lightbox-title="Itinerary Review, Fare Breakdown &amp; Booking Checkout" data-lightbox-caption="Round-trip segment rules, carry-on/checked baggage allowance, transparent fare-tax-discount breakdown, and passenger identity verification." target="_blank" rel="noopener noreferrer">
+                <img src="../assets/tripdata/03-booking-checkout.png" data-rel-root="assets/tripdata/03-booking-checkout.png" alt="Itinerary Review, Fare Breakdown &amp; Booking Checkout — Round-trip segment rules, carry-on/checked baggage allowance, transparent fare-tax-discount breakdown, and passenger identity verification." width="1569" height="1024" loading="lazy" decoding="async" />
+                <span class="gallery-zoom-badge" aria-hidden="true">⤢ 03</span>
+              </a>
+              <figcaption class="gallery-caption">
+                <strong>Itinerary Review, Fare Breakdown &amp; Booking Checkout</strong>
+                <span>Round-trip segment rules, carry-on/checked baggage allowance, transparent fare-tax-discount breakdown, and passenger identity verification.</span>
+              </figcaption>
+            </figure>
+            <figure class="gallery-item">
+              <a class="gallery-thumb" href="../assets/tripdata/04-pnr-ticketing-detail.png" data-rel-root="assets/tripdata/04-pnr-ticketing-detail.png" data-lightbox-item data-lightbox-index="3" data-lightbox-title="Issued E-Ticket &amp; Post-Booking PNR Operations" data-lightbox-caption="End-to-end PNR management: ticket issuance status, SMS/Email e-ticket dispatch, passport/ID updates, ancillary baggage/seat purchase, and cancellation workflows." target="_blank" rel="noopener noreferrer">
+                <img src="../assets/tripdata/04-pnr-ticketing-detail.png" data-rel-root="assets/tripdata/04-pnr-ticketing-detail.png" alt="Issued E-Ticket &amp; Post-Booking PNR Operations — End-to-end PNR management: ticket issuance status, SMS/Email e-ticket dispatch, passport/ID updates, ancillary baggage/seat purchase, and cancellation workflows." width="1568" height="1022" loading="lazy" decoding="async" />
+                <span class="gallery-zoom-badge" aria-hidden="true">⤢ 04</span>
+              </a>
+              <figcaption class="gallery-caption">
+                <strong>Issued E-Ticket &amp; Post-Booking PNR Operations</strong>
+                <span>End-to-end PNR management: ticket issuance status, SMS/Email e-ticket dispatch, passport/ID updates, ancillary baggage/seat purchase, and cancellation workflows.</span>
+              </figcaption>
+            </figure>
+            <figure class="gallery-item">
+              <a class="gallery-thumb" href="../assets/tripdata/05-agent-booking-report.png" data-rel-root="assets/tripdata/05-agent-booking-report.png" data-lightbox-item data-lightbox-index="4" data-lightbox-title="B2B Booking Ledger, Net/Sell Margin &amp; Excel Reconciliation" data-lightbox-caption="Multi-criteria PNR filtering with real-time total sales, net cost, profit margin tracking per booking, and one-click Excel export." target="_blank" rel="noopener noreferrer">
+                <img src="../assets/tripdata/05-agent-booking-report.png" data-rel-root="assets/tripdata/05-agent-booking-report.png" alt="B2B Booking Ledger, Net/Sell Margin &amp; Excel Reconciliation — Multi-criteria PNR filtering with real-time total sales, net cost, profit margin tracking per booking, and one-click Excel export." width="1566" height="1028" loading="lazy" decoding="async" />
+                <span class="gallery-zoom-badge" aria-hidden="true">⤢ 05</span>
+              </a>
+              <figcaption class="gallery-caption">
+                <strong>B2B Booking Ledger, Net/Sell Margin &amp; Excel Reconciliation</strong>
+                <span>Multi-criteria PNR filtering with real-time total sales, net cost, profit margin tracking per booking, and one-click Excel export.</span>
+              </figcaption>
+            </figure>
+            <figure class="gallery-item">
+              <a class="gallery-thumb" href="../assets/tripdata/06-executive-analytics-dashboard.png" data-rel-root="assets/tripdata/06-executive-analytics-dashboard.png" data-lightbox-item data-lightbox-index="5" data-lightbox-title="Executive BI &amp; Look-to-Book Conversion Dashboard" data-lightbox-caption="Real-time operational metrics tracking search volume, Look-to-Book ratios, booking conversion, issued tickets, and GMV across Flights, SOTO International, Hotels, and eSIM." target="_blank" rel="noopener noreferrer">
+                <img src="../assets/tripdata/06-executive-analytics-dashboard.png" data-rel-root="assets/tripdata/06-executive-analytics-dashboard.png" alt="Executive BI &amp; Look-to-Book Conversion Dashboard — Real-time operational metrics tracking search volume, Look-to-Book ratios, booking conversion, issued tickets, and GMV across Flights, SOTO International, Hotels, and eSIM." width="1566" height="1026" loading="lazy" decoding="async" />
+                <span class="gallery-zoom-badge" aria-hidden="true">⤢ 06</span>
+              </a>
+              <figcaption class="gallery-caption">
+                <strong>Executive BI &amp; Look-to-Book Conversion Dashboard</strong>
+                <span>Real-time operational metrics tracking search volume, Look-to-Book ratios, booking conversion, issued tickets, and GMV across Flights, SOTO International, Hotels, and eSIM.</span>
+              </figcaption>
+            </figure>
+            <figure class="gallery-item">
+              <a class="gallery-thumb" href="../assets/tripdata/07-system-admin-console.png" data-rel-root="assets/tripdata/07-system-admin-console.png" data-lightbox-item data-lightbox-index="6" data-lightbox-title="System Administration, Commercial Policy &amp; Pricing Console" data-lightbox-caption="Centralized back-office governance for PNR/ticket auditing, promo codes, commercial policies, base service fees, fare conditions, and route/customer segmentation." target="_blank" rel="noopener noreferrer">
+                <img src="../assets/tripdata/07-system-admin-console.png" data-rel-root="assets/tripdata/07-system-admin-console.png" alt="System Administration, Commercial Policy &amp; Pricing Console — Centralized back-office governance for PNR/ticket auditing, promo codes, commercial policies, base service fees, fare conditions, and route/customer segmentation." width="1566" height="1025" loading="lazy" decoding="async" />
+                <span class="gallery-zoom-badge" aria-hidden="true">⤢ 07</span>
+              </a>
+              <figcaption class="gallery-caption">
+                <strong>System Administration, Commercial Policy &amp; Pricing Console</strong>
+                <span>Centralized back-office governance for PNR/ticket auditing, promo codes, commercial policies, base service fees, fare conditions, and route/customer segmentation.</span>
+              </figcaption>
+            </figure>
+            <figure class="gallery-item">
+              <a class="gallery-thumb" href="../assets/tripdata/08-developer-api-portal.png" data-rel-root="assets/tripdata/08-developer-api-portal.png" data-lightbox-item data-lightbox-index="7" data-lightbox-title="Tripdata Open API &amp; Developer Integration Portal" data-lightbox-caption="Partner API documentation for OAuth2/OIDC token authentication, Flight Hub metadata, search/pricing/ancillary/booking endpoints, eSIM, and Hotel reservations." target="_blank" rel="noopener noreferrer">
+                <img src="../assets/tripdata/08-developer-api-portal.png" data-rel-root="assets/tripdata/08-developer-api-portal.png" alt="Tripdata Open API &amp; Developer Integration Portal — Partner API documentation for OAuth2/OIDC token authentication, Flight Hub metadata, search/pricing/ancillary/booking endpoints, eSIM, and Hotel reservations." width="1568" height="1025" loading="lazy" decoding="async" />
+                <span class="gallery-zoom-badge" aria-hidden="true">⤢ 08</span>
+              </a>
+              <figcaption class="gallery-caption">
+                <strong>Tripdata Open API &amp; Developer Integration Portal</strong>
+                <span>Partner API documentation for OAuth2/OIDC token authentication, Flight Hub metadata, search/pricing/ancillary/booking endpoints, eSIM, and Hotel reservations.</span>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </article>
+      <article class="card project-card has-gallery" data-category="enterprise" id="project-oprex-ahi">
+        <div class="project-meta">
+          <span class="badge badge-accent">ENTERPRISE · INDUSTRIAL IOT</span>
+          <span class="mono-dim">09/2021 – 09/2024</span>
+        </div>
+        <h3 class="project-title">OpreX Asset Health Insights — Multi-Cloud IIoT SaaS</h3>
+        <p class="project-org">Yokogawa Electric Corporation</p>
+        <p class="project-context">Enterprise plant asset monitoring and Asset Performance Management (APM) platform ingesting heterogeneous Operational Technology (OT) sensor streams and aggregating them into structured ISA-95 plant hierarchies.</p>
+        <ul class="bullet-list">
+          <li>Robust IoT connectivity layer load-tested with 2,000+ concurrently connected devices without issue.</li><li>Multi-platform connectivity across MQTT, RabbitMQ, MQTTX, Azure, CoAP, and real-time SignalR streams, bridging OT devices with enterprise IT cloud analytics.</li><li>Machine learning on IoT telemetry for early-warning alerts and flexible profit and cost calculation.</li><li>Strict role-based access control for multiple engineering teams via IdentityServer4 and OpenID Connect (OIDC) — no one exceeds their granted permissions — built for enterprise systems.</li><li>Multi-cloud Kubernetes provisioned via Terraform &amp; Helm across AWS, Microsoft Azure, and Alibaba Cloud, backed by PostgreSQL, Microsoft SQL Server, and RabbitMQ.</li>
+        </ul>
+        <div class="tag-list">
+          <span class="tag">.NET Core</span><span class="tag">Microservices</span><span class="tag">MQTT</span><span class="tag">RabbitMQ</span><span class="tag">Machine Learning</span><span class="tag">CoAP</span><span class="tag">SignalR</span><span class="tag">PostgreSQL</span><span class="tag">SQL Server</span><span class="tag">Terraform</span><span class="tag">Helm</span><span class="tag">Kubernetes</span><span class="tag">AWS/Azure/Alibaba Cloud</span><span class="tag">OIDC</span>
+        </div>
+        <div class="card-links"><a class="chip-link" href="https://www.yokogawa.com/vn/solutions/featured-topics/digital-transformation/yokogawa-cloud/asset-health-insights/" target="_blank" rel="noopener noreferrer">↗ Yokogawa · Asset Health Insights</a></div>
+        
+        <div class="media-gallery" data-media-gallery>
+          <div class="gallery-head">
+            <span class="mono-index">// SYSTEM UI &amp; PLATFORM SNAPSHOTS (10)</span>
+            <h4 class="gallery-title">OpreX Asset Health Insights — Interface screenshots</h4>
+          </div>
+          <div class="gallery-grid">
+            <figure class="gallery-item">
+              <a class="gallery-thumb" href="../assets/oprex-ahi/01-solar-power-dashboard.png" data-rel-root="assets/oprex-ahi/01-solar-power-dashboard.png" data-lightbox-item data-lightbox-index="0" data-lightbox-title="Solar power generation dashboard" data-lightbox-caption="Site layout, anomaly detection, system status and power generation trends." target="_blank" rel="noopener noreferrer">
+                <img src="../assets/oprex-ahi/01-solar-power-dashboard.png" data-rel-root="assets/oprex-ahi/01-solar-power-dashboard.png" alt="Solar power generation dashboard — Site layout, anomaly detection, system status and power generation trends." width="679" height="384" loading="lazy" decoding="async" />
+                <span class="gallery-zoom-badge" aria-hidden="true">⤢ 01</span>
+              </a>
+              <figcaption class="gallery-caption">
+                <strong>Solar power generation dashboard</strong>
+                <span>Site layout, anomaly detection, system status and power generation trends.</span>
+              </figcaption>
+            </figure>
+            <figure class="gallery-item">
+              <a class="gallery-thumb" href="../assets/oprex-ahi/02-plant-monitoring-3d.jpg" data-rel-root="assets/oprex-ahi/02-plant-monitoring-3d.jpg" data-lightbox-item data-lightbox-index="1" data-lightbox-title="3D plant monitoring" data-lightbox-caption="Plant overview with oil well, cooling tower, pressure, flow and power indicators." target="_blank" rel="noopener noreferrer">
+                <img src="../assets/oprex-ahi/02-plant-monitoring-3d.jpg" data-rel-root="assets/oprex-ahi/02-plant-monitoring-3d.jpg" alt="3D plant monitoring — Plant overview with oil well, cooling tower, pressure, flow and power indicators." width="1144" height="580" loading="lazy" decoding="async" />
+                <span class="gallery-zoom-badge" aria-hidden="true">⤢ 02</span>
+              </a>
+              <figcaption class="gallery-caption">
+                <strong>3D plant monitoring</strong>
+                <span>Plant overview with oil well, cooling tower, pressure, flow and power indicators.</span>
+              </figcaption>
+            </figure>
+            <figure class="gallery-item">
+              <a class="gallery-thumb" href="../assets/oprex-ahi/03-anomaly-analysis.png" data-rel-root="assets/oprex-ahi/03-anomaly-analysis.png" data-lightbox-item data-lightbox-index="2" data-lightbox-title="Anomaly analysis workspace" data-lightbox-caption="Anomaly scores, sensor trends, 3D PCA, variable importance and score table." target="_blank" rel="noopener noreferrer">
+                <img src="../assets/oprex-ahi/03-anomaly-analysis.png" data-rel-root="assets/oprex-ahi/03-anomaly-analysis.png" alt="Anomaly analysis workspace — Anomaly scores, sensor trends, 3D PCA, variable importance and score table." width="783" height="394" loading="lazy" decoding="async" />
+                <span class="gallery-zoom-badge" aria-hidden="true">⤢ 03</span>
+              </a>
+              <figcaption class="gallery-caption">
+                <strong>Anomaly analysis workspace</strong>
+                <span>Anomaly scores, sensor trends, 3D PCA, variable importance and score table.</span>
+              </figcaption>
+            </figure>
+            <figure class="gallery-item">
+              <a class="gallery-thumb" href="../assets/oprex-ahi/04-pump-performance.png" data-rel-root="assets/oprex-ahi/04-pump-performance.png" data-lightbox-item data-lightbox-index="3" data-lightbox-title="Pump performance dashboard" data-lightbox-caption="Pump infographic, performance curves, KPIs and operating trends." target="_blank" rel="noopener noreferrer">
+                <img src="../assets/oprex-ahi/04-pump-performance.png" data-rel-root="assets/oprex-ahi/04-pump-performance.png" alt="Pump performance dashboard — Pump infographic, performance curves, KPIs and operating trends." width="590" height="317" loading="lazy" decoding="async" />
+                <span class="gallery-zoom-badge" aria-hidden="true">⤢ 04</span>
+              </a>
+              <figcaption class="gallery-caption">
+                <strong>Pump performance dashboard</strong>
+                <span>Pump infographic, performance curves, KPIs and operating trends.</span>
+              </figcaption>
+            </figure>
+            <figure class="gallery-item">
+              <a class="gallery-thumb" href="../assets/oprex-ahi/05-carbon-tracker.jpg" data-rel-root="assets/oprex-ahi/05-carbon-tracker.jpg" data-lightbox-item data-lightbox-index="4" data-lightbox-title="Carbon tracker dashboard" data-lightbox-caption="Emission trends, contributor ranking, carbon footprint treemap and energy analytics." target="_blank" rel="noopener noreferrer">
+                <img src="../assets/oprex-ahi/05-carbon-tracker.jpg" data-rel-root="assets/oprex-ahi/05-carbon-tracker.jpg" alt="Carbon tracker dashboard — Emission trends, contributor ranking, carbon footprint treemap and energy analytics." width="2000" height="1130" loading="lazy" decoding="async" />
+                <span class="gallery-zoom-badge" aria-hidden="true">⤢ 05</span>
+              </a>
+              <figcaption class="gallery-caption">
+                <strong>Carbon tracker dashboard</strong>
+                <span>Emission trends, contributor ranking, carbon footprint treemap and energy analytics.</span>
+              </figcaption>
+            </figure>
+            <figure class="gallery-item">
+              <a class="gallery-thumb" href="../assets/oprex-ahi/06-prediction-vs-actual.png" data-rel-root="assets/oprex-ahi/06-prediction-vs-actual.png" data-lightbox-item data-lightbox-index="5" data-lightbox-title="Prediction versus actual" data-lightbox-caption="Training job chart comparing predicted and actual values with chart configuration." target="_blank" rel="noopener noreferrer">
+                <img src="../assets/oprex-ahi/06-prediction-vs-actual.png" data-rel-root="assets/oprex-ahi/06-prediction-vs-actual.png" alt="Prediction versus actual — Training job chart comparing predicted and actual values with chart configuration." width="903" height="510" loading="lazy" decoding="async" />
+                <span class="gallery-zoom-badge" aria-hidden="true">⤢ 06</span>
+              </a>
+              <figcaption class="gallery-caption">
+                <strong>Prediction versus actual</strong>
+                <span>Training job chart comparing predicted and actual values with chart configuration.</span>
+              </figcaption>
+            </figure>
+            <figure class="gallery-item">
+              <a class="gallery-thumb" href="../assets/oprex-ahi/07-asset-data-management.png" data-rel-root="assets/oprex-ahi/07-asset-data-management.png" data-lightbox-item data-lightbox-index="6" data-lightbox-title="Asset data management" data-lightbox-caption="Asset hierarchy and attribute table with values, expressions, quality and timestamps." target="_blank" rel="noopener noreferrer">
+                <img src="../assets/oprex-ahi/07-asset-data-management.png" data-rel-root="assets/oprex-ahi/07-asset-data-management.png" alt="Asset data management — Asset hierarchy and attribute table with values, expressions, quality and timestamps." width="903" height="509" loading="lazy" decoding="async" />
+                <span class="gallery-zoom-badge" aria-hidden="true">⤢ 07</span>
+              </a>
+              <figcaption class="gallery-caption">
+                <strong>Asset data management</strong>
+                <span>Asset hierarchy and attribute table with values, expressions, quality and timestamps.</span>
+              </figcaption>
+            </figure>
+            <figure class="gallery-item">
+              <a class="gallery-thumb" href="../assets/oprex-ahi/08-chiller-dashboard.png" data-rel-root="assets/oprex-ahi/08-chiller-dashboard.png" data-lightbox-item data-lightbox-index="7" data-lightbox-title="Chiller plant dashboard" data-lightbox-caption="Process overview, energy consumption, performance and anomaly detection charts." target="_blank" rel="noopener noreferrer">
+                <img src="../assets/oprex-ahi/08-chiller-dashboard.png" data-rel-root="assets/oprex-ahi/08-chiller-dashboard.png" alt="Chiller plant dashboard — Process overview, energy consumption, performance and anomaly detection charts." width="903" height="506" loading="lazy" decoding="async" />
+                <span class="gallery-zoom-badge" aria-hidden="true">⤢ 08</span>
+              </a>
+              <figcaption class="gallery-caption">
+                <strong>Chiller plant dashboard</strong>
+                <span>Process overview, energy consumption, performance and anomaly detection charts.</span>
+              </figcaption>
+            </figure>
+            <figure class="gallery-item">
+              <a class="gallery-thumb" href="../assets/oprex-ahi/09-turbine-diagnostics.png" data-rel-root="assets/oprex-ahi/09-turbine-diagnostics.png" data-lightbox-item data-lightbox-index="8" data-lightbox-title="Steam turbine diagnostics" data-lightbox-caption="Anomaly scores, failure timeline, failure modes and actual versus predicted signals." target="_blank" rel="noopener noreferrer">
+                <img src="../assets/oprex-ahi/09-turbine-diagnostics.png" data-rel-root="assets/oprex-ahi/09-turbine-diagnostics.png" alt="Steam turbine diagnostics — Anomaly scores, failure timeline, failure modes and actual versus predicted signals." width="1134" height="720" loading="lazy" decoding="async" />
+                <span class="gallery-zoom-badge" aria-hidden="true">⤢ 09</span>
+              </a>
+              <figcaption class="gallery-caption">
+                <strong>Steam turbine diagnostics</strong>
+                <span>Anomaly scores, failure timeline, failure modes and actual versus predicted signals.</span>
+              </figcaption>
+            </figure>
+            <figure class="gallery-item">
+              <a class="gallery-thumb" href="../assets/oprex-ahi/10-pid-process-diagram.png" data-rel-root="assets/oprex-ahi/10-pid-process-diagram.png" data-lightbox-item data-lightbox-index="9" data-lightbox-title="P&amp;ID process diagram" data-lightbox-caption="Piping and instrumentation diagram with overlaid process readings." target="_blank" rel="noopener noreferrer">
+                <img src="../assets/oprex-ahi/10-pid-process-diagram.png" data-rel-root="assets/oprex-ahi/10-pid-process-diagram.png" alt="P&amp;ID process diagram — Piping and instrumentation diagram with overlaid process readings." width="903" height="719" loading="lazy" decoding="async" />
+                <span class="gallery-zoom-badge" aria-hidden="true">⤢ 10</span>
+              </a>
+              <figcaption class="gallery-caption">
+                <strong>P&amp;ID process diagram</strong>
+                <span>Piping and instrumentation diagram with overlaid process readings.</span>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </article>
+      <article class="card project-card" data-category="enterprise" id="project-evolution-wellness-iam">
+        <div class="project-meta">
+          <span class="badge badge-accent">ENTERPRISE · BIOMETRIC IAM</span>
+          <span class="mono-dim">10/2020 – 02/2022</span>
+        </div>
+        <h3 class="project-title">Biometric Facial Recognition &amp; Facility Access Control Platform</h3>
+        <p class="project-org">NashTech · Client: Evolution Wellness</p>
+        <p class="project-context">Securing and streamlining member identity verification and physical club turnstile entry across Evolution Wellness&#39;s regional fitness networks while safeguarding biometric and membership records.</p>
+        <ul class="bullet-list">
+          <li>Designed .NET Core microservices handling facial recognition matching workflows, membership entitlement validation, and physical access hardware integration.</li><li>Secured inter-service and client boundaries with IdentityServer4, OAuth 2.0, and OpenID Connect (OIDC).</li><li>Deployed on Microsoft Azure utilizing Azure Service Bus for reliable asynchronous membership state synchronization and Microsoft SQL Server.</li>
+        </ul>
+        <div class="tag-list">
+          <span class="tag">.NET Core</span><span class="tag">C#</span><span class="tag">Microsoft Azure</span><span class="tag">Azure Service Bus</span><span class="tag">SQL Server</span><span class="tag">IdentityServer4</span><span class="tag">OAuth 2.0</span><span class="tag">OIDC</span>
+        </div>
+        
+        
+      </article>
+      <article class="card project-card" data-category="enterprise" id="project-fpt-lead-engine">
+        <div class="project-meta">
+          <span class="badge badge-accent">ENTERPRISE · CRM &amp; WORKFLOW</span>
+          <span class="mono-dim">11/2019 – 10/2020</span>
+        </div>
+        <h3 class="project-title">Queue-Based Automated Lead Management &amp; SLA Routing Engine</h3>
+        <p class="project-org">FPT Telecom</p>
+        <p class="project-context">Eliminating manual lead cherry-picking and uneven response times across distributed telecom sales teams through deterministic queue orchestration.</p>
+        <ul class="bullet-list">
+          <li>Built an automated queue-based lead assignment service enforcing a strict 15-minute acceptance SLA: unaccepted leads are automatically rotated back to the end of the distribution queue.</li><li>Structured around SOA and Microservices principles with Redis caching for hot queue/state reads and optimized SQL Server queries for reporting.</li><li>Led both technical backend implementation and project management coordination after 6 months on the project.</li>
+        </ul>
+        <div class="tag-list">
+          <span class="tag">C#</span><span class="tag">.NET</span><span class="tag">Microservices</span><span class="tag">SOA</span><span class="tag">Redis</span><span class="tag">Microsoft SQL Server</span><span class="tag">SQL Optimization</span><span class="tag">REST APIs</span>
+        </div>
+        
+        
+      </article>
+      <article class="card project-card" data-category="enterprise" id="project-enviet-ops">
+        <div class="project-meta">
+          <span class="badge badge-accent">ENTERPRISE · AVIATION OPS</span>
+          <span class="mono-dim">06/2017 – 11/2019</span>
+        </div>
+        <h3 class="project-title">Internal Aviation Ticketing ERP, Webhooks &amp; Windows Server Automation</h3>
+        <p class="project-org">Én Việt Joint Stock Company</p>
+        <p class="project-context">Supporting daily airline agency operations, partner integrations, and 24/7 internal infrastructure reliability in an IATA ticketing enterprise.</p>
+        <ul class="bullet-list">
+          <li>Engineered internal business management apps, REST &amp; SOAP Web APIs, Windows Services, webhook receivers, and WinForms operational tools on .NET Framework &amp; SQL Server.</li><li>Built server-side automation, health monitoring, and incident alerting scripts across Windows Server environments.</li>
+        </ul>
+        <div class="tag-list">
+          <span class="tag">C#</span><span class="tag">.NET Framework</span><span class="tag">ASP.NET</span><span class="tag">REST/SOAP APIs</span><span class="tag">Windows Services</span><span class="tag">WinForms</span><span class="tag">SQL Server</span><span class="tag">Windows Server</span>
+        </div>
+        
+        
+      </article>
+      <article class="card project-card" data-category="closedsource" id="project-smart-companion">
+        <div class="project-meta">
+          <span class="badge badge-amber">CLOSED SOURCE · ★9 GITHUB · ANDROID / BT</span>
+          <span class="mono-dim">Closed Source</span>
+        </div>
+        <h3 class="project-title">Smart Companion &amp; Smart Core (Smart Glasses Control Suite)</h3>
+        <p class="project-org">github.com/vodacthe/smart_companion</p>
+        <p class="project-context">Closed-source paired Android ecosystem enabling smartphones to act as a low-friction remote control, HUD bridge, and file manager for Smart Glasses, Android TVs, and tablets.</p>
+        <ul class="bullet-list">
+          <li>Dual-app architecture: Smart Core runs on the target glasses/TV receiver while Smart Companion runs on the controller phone over Bluetooth.</li><li>Supports notification mirroring, HUD navigation cues, remote screen recording with live timer, and fast wireless directory/file transfers.</li>
+        </ul>
+        <div class="tag-list">
+          <span class="tag">Android</span><span class="tag">Bluetooth</span><span class="tag">HUD Navigation</span><span class="tag">Remote Control</span><span class="tag">File Transfer</span>
+        </div>
+        <div class="card-links"><a class="chip-link" href="https://github.com/vodacthe/smart_companion" target="_blank" rel="noopener noreferrer">↗ Release &amp; Docs (GitHub)</a></div>
+        
+      </article>
+      <article class="card project-card" data-category="closedsource" id="project-ar-air-mouse">
+        <div class="project-meta">
+          <span class="badge badge-amber">CLOSED SOURCE · ★5 GITHUB · PLAY STORE</span>
+          <span class="mono-dim">Closed Source</span>
+        </div>
+        <h3 class="project-title">AR Air Mouse — Hands-Free Gesture Cursor for AR Glasses</h3>
+        <p class="project-org">github.com/vodacthe/ar_air_mouse</p>
+        <p class="project-context">Closed-source spatial interaction app that eliminates reaching for a phone screen while wearing AR glasses by converting subtle head motion and natural micro-gestures into a virtual pointer.</p>
+        <ul class="bullet-list">
+          <li>Uses Android AccessibilityService API to render a floating virtual cursor and dispatch touch/scroll/navigation gestures globally.</li><li>Supports custom gesture mapping (including bite/tap triggers), zoom/scroll actions, and built-in Speech-to-Text dictation.</li>
+        </ul>
+        <div class="tag-list">
+          <span class="tag">Android</span><span class="tag">AccessibilityService</span><span class="tag">AR Glasses</span><span class="tag">Gesture Recognition</span><span class="tag">Speech-to-Text</span>
+        </div>
+        <div class="card-links"><a class="chip-link" href="https://github.com/vodacthe/ar_air_mouse" target="_blank" rel="noopener noreferrer">↗ Release &amp; Docs (GitHub)</a></div>
+        
+      </article>
+      <article class="card project-card" data-category="opensource" id="project-decal-unwrap">
+        <div class="project-meta">
+          <span class="badge badge-emerald">OPEN SOURCE · LIVE WEB APP · 3D GEOMETRY</span>
+          <span class="mono-dim">Open Source</span>
+        </div>
+        <h3 class="project-title">Decal Unwrap — Browser 3D-to-2D True-Scale Cut Template Engine</h3>
+        <p class="project-org">github.com/vodacthe/decal-unwrap</p>
+        <p class="project-context">Turns painted regions on 3D printable models into millimeter-accurate 1:1 flat paper templates to print, cut, and wrap physically around 3D prints.</p>
+        <ul class="bullet-list">
+          <li>100% client-side browser geometry pipeline supporting STL, OBJ, 3MF, PLY, and GLB files, plus 1:1 3D plate extrusion from scanned paper sketches.</li><li>Includes ridge-aware fill/brush/cut painting tools, low-stretch surface flattening, multi-sheet nesting (A2–A6, Letter, Legal), and PDF/SVG/DXF export.</li>
+        </ul>
+        <div class="tag-list">
+          <span class="tag">HTML5 / WebGL</span><span class="tag">3D Mesh Unwrapping</span><span class="tag">Computational Geometry</span><span class="tag">SVG / PDF / DXF</span>
+        </div>
+        <div class="card-links"><a class="chip-link" href="https://decal.vdthe.com/" target="_blank" rel="noopener noreferrer">↗ Live App (decal.vdthe.com)</a><a class="chip-link" href="https://github.com/vodacthe/decal-unwrap" target="_blank" rel="noopener noreferrer">↗ GitHub Repo</a></div>
+        
+      </article>
+      <article class="card project-card" data-category="opensource" id="project-face-track">
+        <div class="project-meta">
+          <span class="badge badge-emerald">OPEN SOURCE · KOTLIN · 6-DOF TELEMETRY</span>
+          <span class="mono-dim">Open Source</span>
+        </div>
+        <h3 class="project-title">FaceTrack 6-DoF — Android Head Tracker for Simulators</h3>
+        <p class="project-org">github.com/vodacthe/face_track</p>
+        <p class="project-context">Low-latency 6-Degrees-of-Freedom (X/Y/Z translation + Yaw/Pitch/Roll rotation) camera head-tracking for flight, racing, and space simulators.</p>
+        <ul class="bullet-list">
+          <li>Written in Kotlin for Android and engineered for compatibility with OpenTrack, FreeTrack 2.0 / TrackIR protocols, and SimHub.</li><li>Streams smooth head-pose telemetry over UDP to simulation titles such as MSFS 2020/2024, DCS World, ETS2, and Assetto Corsa.</li>
+        </ul>
+        <div class="tag-list">
+          <span class="tag">Kotlin</span><span class="tag">Android</span><span class="tag">6-DoF Tracking</span><span class="tag">OpenTrack</span><span class="tag">FreeTrack 2.0 / UDP</span><span class="tag">SimHub</span>
+        </div>
+        <div class="card-links"><a class="chip-link" href="https://github.com/vodacthe/face_track" target="_blank" rel="noopener noreferrer">↗ GitHub Repo</a></div>
+        
+      </article>
+      <article class="card project-card" data-category="opensource" id="project-vdt-sys-agent">
+        <div class="project-meta">
+          <span class="badge badge-emerald">OPEN SOURCE · PYTHON STDLIB · DEVOPS</span>
+          <span class="mono-dim">Open Source</span>
+        </div>
+        <h3 class="project-title">vdt-sys-agent — Zero-Dependency Linux Hardware Telemetry Agent</h3>
+        <p class="project-org">github.com/vodacthe/vdt-sys-agent</p>
+        <p class="project-context">Lightweight, one-line-install Linux server monitoring agent feeding real-time node metrics into the VDT Enterprise dashboard without pip or external runtime bloat.</p>
+        <ul class="bullet-list">
+          <li>Built exclusively on Python 3.8+ standard library exposing HTTP endpoints secured via auto-generated x-api-key authentication.</li><li>Collects CPU, RAM, swap, disk, listening dev-server ports, top processes by CPU/RAM, and GPU metrics across NVIDIA, AMD, and Intel hardware.</li>
+        </ul>
+        <div class="tag-list">
+          <span class="tag">Python 3 Stdlib</span><span class="tag">Linux Telemetry</span><span class="tag">HTTP / API Key Auth</span><span class="tag">GPU / Process Monitoring</span><span class="tag">Bash Installer</span>
+        </div>
+        <div class="card-links"><a class="chip-link" href="https://github.com/vodacthe/vdt-sys-agent" target="_blank" rel="noopener noreferrer">↗ GitHub Repo</a></div>
+        
+      </article>
+  </div>
+</article>
+    </div>
+
+    <div id="stream-status" class="stream-status" aria-live="polite">
+      <span class="mono-prompt">&gt;</span> Scroll continuously to stream remaining modules or jump directly via pagination below.
+    </div>
+    <div id="stream-sentinel" aria-hidden="true"></div>
+
+    <nav class="pagination-bar" aria-label="Pagination">
+      <a class="page-btn" href="../experience/">← Previous</a>
+      <div class="page-numbers">
+        <a class="page-num" href="../full/" title="Overview (Full Dossier)">1</a><a class="page-num" href="../experience/" title="Experience">2</a><a class="page-num is-active" href="../projects/" title="Projects &amp; Open Source" aria-current="page">3</a><a class="page-num" href="../skills/" title="Skills &amp; Architecture">4</a><a class="page-num" href="../credentials/" title="Credentials &amp; Awards">5</a><a class="page-num" href="../contact/" title="Contact &amp; References">6</a>
+      </div>
+      <a class="page-btn" href="../skills/">Next →</a>
+    </nav>
+  </main>
+
+  <footer class="site-footer container">
+    <div class="footer-row">
+      <span>© Vo Dac The · Ho Chi Minh, Vietnam</span>
+      <div class="footer-links">
+        <a href="../llms.txt" data-rel-root="llms.txt">llms.txt</a>
+        <a href="../llms-full.txt" data-rel-root="llms-full.txt">llms-full.txt</a>
+        <a href="../resume.json" data-rel-root="resume.json">resume.json</a>
+        <a href="../sitemap.xml" data-rel-root="sitemap.xml">sitemap.xml</a>
+      </div>
+    </div>
+  </footer>
+
+  <div id="hud-pill" class="hud-pill">
+    <span id="hud-status">LOADED 1/6 · 03/06</span>
+    <button type="button" id="back-to-top" class="hud-top-btn">↑ Top</button>
+  </div>
+
+  <dialog id="cmd-palette" class="cmd-dialog" aria-labelledby="cmd-title">
+    <div class="cmd-shell">
+      <div class="cmd-head">
+        <strong id="cmd-title">Command Palette</strong>
+        <button type="button" id="cmd-close" class="tool-btn">ESC</button>
+      </div>
+      <input type="search" id="cmd-input" class="cmd-input" placeholder="Jump to module, company, project, or action..." autocomplete="off" />
+      <ul id="cmd-list" class="cmd-list"></ul>
+      <div class="cmd-foot">ESC to close · Enter to open</div>
+    </div>
+  </dialog>
+
+  <dialog id="lightbox-dialog" class="lightbox-dialog" aria-labelledby="lightbox-title">
+    <div class="lightbox-shell">
+      <div class="lightbox-head">
+        <div class="lightbox-meta">
+          <span id="lightbox-counter" class="badge badge-accent">01 / 08</span>
+          <strong id="lightbox-title">Tripdata Platform</strong>
+        </div>
+        <div class="lightbox-actions">
+          <button type="button" id="lightbox-prev" class="tool-btn" aria-label="Previous image">←</button>
+          <button type="button" id="lightbox-next" class="tool-btn" aria-label="Next image">→</button>
+          <a id="lightbox-raw" class="tool-btn" href="../assets/tripdata/01-b2b-portal-home.png" data-rel-root="assets/tripdata/01-b2b-portal-home.png" target="_blank" rel="noopener noreferrer">↗ Full</a>
+          <button type="button" id="lightbox-close" class="tool-btn">ESC</button>
+        </div>
+      </div>
+      <div class="lightbox-stage">
+        <img id="lightbox-img" src="../assets/tripdata/01-b2b-portal-home.png" data-rel-root="assets/tripdata/01-b2b-portal-home.png" alt="Tripdata Platform Preview" />
+      </div>
+      <p id="lightbox-caption" class="lightbox-caption"></p>
+    </div>
+  </dialog>
+
+  <script>window.__PORTFOLIO_META__ = {"locale":"en","rootPrefix":"../","currentIndex":3,"totalChapters":6,"ui":{"siteSubtitle":"CTO · Solution Architect · Systems Engineer","availableBadge":"OPEN TO GLOBAL TECH LEADERSHIP & ARCHITECTURE ADVISORY","streamLabel":"Stream","streamOn":"ON","streamOff":"OFF","cmdButton":"Cmd","printButton":"Export PDF","copyCode":"Copy","copiedCode":"Copied","prevPage":"Previous","nextPage":"Next","pageOf":"Module","streamBannerIdle":"Scroll continuously to stream remaining modules or jump directly via pagination below.","streamBannerLoading":"Streaming next module","streamBannerDone":"All 6 portfolio modules loaded into view.","streamBannerPaused":"Continuous streaming is paused. Enable Stream: ON above or use page navigation.","backToTop":"Top","loadedModules":"LOADED","cmdTitle":"Command Palette","cmdPlaceholder":"Jump to module, company, project, or action...","cmdHint":"ESC to close · Enter to open","cmdEmpty":"No matching entries found.","filterAll":"All","filterSearchPlaceholder":"Search skills, stacks, or domains (e.g. Kubernetes, RAG, OIDC)...","readMore":"View full details"},"pages":[{"index":1,"key":"overview","file":"01 overview.ts","title":"Overview (Full Dossier)","href":"../full/"},{"index":2,"key":"experience","file":"02 experience.cs","title":"Experience","href":"../experience/"},{"index":3,"key":"projects","file":"03 projects.json","title":"Projects & Open Source","href":"../projects/"},{"index":4,"key":"skills","file":"04 skills.yaml","title":"Skills & Architecture","href":"../skills/"},{"index":5,"key":"credentials","file":"05 credentials.md","title":"Credentials & Awards","href":"../credentials/"},{"index":6,"key":"contact","file":"06 contact.sh","title":"Contact & References","href":"../contact/"}],"cmdEntries":[{"group":"Modules","label":"01 Overview (Full Dossier) (01 overview.ts)","keywords":"01 overview.ts Overview (Full Dossier) Tổng quan (Bản Đầy Đủ)","href":"../full/","num":1},{"group":"Modules","label":"02 Experience (02 experience.cs)","keywords":"02 experience.cs Experience Kinh nghiệm","href":"../experience/","num":2},{"group":"Modules","label":"03 Projects & Open Source (03 projects.json)","keywords":"03 projects.json Projects & Open Source Dự án & Mã nguồn mở","href":"../projects/","num":3},{"group":"Modules","label":"04 Skills & Architecture (04 skills.yaml)","keywords":"04 skills.yaml Skills & Architecture Kỹ năng & Kiến trúc","href":"../skills/","num":4},{"group":"Modules","label":"05 Credentials & Awards (05 credentials.md)","keywords":"05 credentials.md Credentials & Awards Chứng chỉ & Giải thưởng","href":"../credentials/","num":5},{"group":"Modules","label":"06 Contact & References (06 contact.sh)","keywords":"06 contact.sh Contact & References Liên hệ & Tham chiếu","href":"../contact/","num":6},{"group":"Experience","label":"CTO – Chief Technology Officer — Tripdata (12/2024 – Present)","keywords":"Tripdata CTO – Chief Technology Officer .NET Core C# React Flutter Microservices PostgreSQL Kubernetes Docker Azure AWS RabbitMQ YARP Nginx GitHub Actions Azure DevOps Prometheus Grafana Loki OpenTelemetry AI/LLM RAG","href":"../experience/#role-tripdata"},{"group":"Experience","label":"Technical Lead / Solution Architecture Support — Yokogawa Electric Corporation (09/2021 – 09/2024)","keywords":"Yokogawa Electric Corporation Technical Lead / Solution Architecture Support .NET Core C# Microservices PostgreSQL Microsoft SQL Server RabbitMQ SignalR CoAP MQTT Machine Learning Azure AWS Alibaba Cloud Kubernetes Docker Terraform Helm Azure DevOps OIDC IdentityServer4","href":"../experience/#role-yokogawa"},{"group":"Experience","label":"Senior Software Engineer — NashTech (10/2020 – 02/2022)","keywords":"NashTech Senior Software Engineer C# .NET Core Microservices Microsoft Azure Azure Service Bus Microsoft SQL Server IdentityServer4 OAuth 2.0 OpenID Connect (OIDC) REST APIs","href":"../experience/#role-nashtech"},{"group":"Experience","label":".NET Developer / Project Manager — FPT Telecom (11/2019 – 10/2020)","keywords":"FPT Telecom .NET Developer / Project Manager C# .NET Microservices SOA Redis Microsoft SQL Server SQL Optimization REST APIs","href":"../experience/#role-fpt"},{"group":"Experience","label":"Developer / System Administrator — Én Việt Joint Stock Company (06/2017 – 11/2019)","keywords":"Én Việt Joint Stock Company Developer / System Administrator C# .NET Framework ASP.NET REST/SOAP APIs Windows Services WinForms SQL Server Windows Server","href":"../experience/#role-enviet"},{"group":"Experience","label":"Game Tester — Gameloft Vietnam (07/2016 – 04/2017)","keywords":"Gameloft Vietnam Game Tester Software Testing Quality Assurance Functional Testing Mobile Application Testing Bug Reporting","href":"../experience/#role-gameloft"},{"group":"Experience","label":"Intern Mobile Game Developer (Unity) — PIXA Studio (now PSA Solutions) (01/2016 – 05/2016)","keywords":"PIXA Studio (now PSA Solutions) Intern Mobile Game Developer (Unity) C# Unity Unity Ads Google AdMob Vungle Google Play In-App Billing","href":"../experience/#role-pixa"},{"group":"Projects","label":"Tripdata B2B Travel Infrastructure & AI Distribution Ecosystem","keywords":"Tripdata (with SkyJet consolidator operations) .NET Core React Flutter PostgreSQL RabbitMQ YARP Kubernetes Azure/AWS LLM & RAG OpenTelemetry","href":"../projects/#project-tripdata-platform"},{"group":"Projects","label":"OpreX Asset Health Insights — Multi-Cloud IIoT SaaS","keywords":"Yokogawa Electric Corporation .NET Core Microservices MQTT RabbitMQ Machine Learning CoAP SignalR PostgreSQL SQL Server Terraform Helm Kubernetes AWS/Azure/Alibaba Cloud OIDC","href":"../projects/#project-oprex-ahi"},{"group":"Projects","label":"Biometric Facial Recognition & Facility Access Control Platform","keywords":"NashTech · Client: Evolution Wellness .NET Core C# Microsoft Azure Azure Service Bus SQL Server IdentityServer4 OAuth 2.0 OIDC","href":"../projects/#project-evolution-wellness-iam"},{"group":"Projects","label":"Queue-Based Automated Lead Management & SLA Routing Engine","keywords":"FPT Telecom C# .NET Microservices SOA Redis Microsoft SQL Server SQL Optimization REST APIs","href":"../projects/#project-fpt-lead-engine"},{"group":"Projects","label":"Internal Aviation Ticketing ERP, Webhooks & Windows Server Automation","keywords":"Én Việt Joint Stock Company C# .NET Framework ASP.NET REST/SOAP APIs Windows Services WinForms SQL Server Windows Server","href":"../projects/#project-enviet-ops"},{"group":"Projects","label":"Smart Companion & Smart Core (Smart Glasses Control Suite)","keywords":"github.com/vodacthe/smart_companion Android Bluetooth HUD Navigation Remote Control File Transfer","href":"../projects/#project-smart-companion"},{"group":"Projects","label":"AR Air Mouse — Hands-Free Gesture Cursor for AR Glasses","keywords":"github.com/vodacthe/ar_air_mouse Android AccessibilityService AR Glasses Gesture Recognition Speech-to-Text","href":"../projects/#project-ar-air-mouse"},{"group":"Projects","label":"Decal Unwrap — Browser 3D-to-2D True-Scale Cut Template Engine","keywords":"github.com/vodacthe/decal-unwrap HTML5 / WebGL 3D Mesh Unwrapping Computational Geometry SVG / PDF / DXF","href":"../projects/#project-decal-unwrap"},{"group":"Projects","label":"FaceTrack 6-DoF — Android Head Tracker for Simulators","keywords":"github.com/vodacthe/face_track Kotlin Android 6-DoF Tracking OpenTrack FreeTrack 2.0 / UDP SimHub","href":"../projects/#project-face-track"},{"group":"Projects","label":"vdt-sys-agent — Zero-Dependency Linux Hardware Telemetry Agent","keywords":"github.com/vodacthe/vdt-sys-agent Python 3 Stdlib Linux Telemetry HTTP / API Key Auth GPU / Process Monitoring Bash Installer","href":"../projects/#project-vdt-sys-agent"}]};</script>
+  <script src="../assets/stream-en.js" defer></script>
+  <script src="../assets/app.js" defer></script>
+</body>
+</html>

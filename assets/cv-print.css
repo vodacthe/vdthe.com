@@ -1,0 +1,211 @@
+/* Print-only résumé layout for "Export PDF" (rendered by src/cv-print.mjs). */
+/* Alegreya (SIL OFL 1.1, see fonts/Alegreya-OFL.txt) — self-hosted, Latin + Vietnamese subset. */
+@font-face {
+  font-family: "CV Alegreya";
+  src: url("fonts/Alegreya-wght.woff2") format("woff2");
+  font-weight: 400 900;
+  font-style: normal;
+  font-display: block;
+}
+@font-face {
+  font-family: "CV Alegreya";
+  src: url("fonts/Alegreya-Italic-wght.woff2") format("woff2");
+  font-weight: 400 900;
+  font-style: italic;
+  font-display: block;
+}
+
+.cv-print {
+  display: none;
+}
+
+@media print {
+  @page {
+    size: A4;
+    margin: 16mm 14mm 14mm;
+
+    @top-left {
+      content: "Vo Dac The";
+      font: 9pt "CV Alegreya", Alegreya, "Iowan Old Style", "Palatino Linotype", Georgia, serif;
+      color: #555;
+    }
+    @top-center {
+      content: "work.thevo@gmail.com";
+      font: 9pt "CV Alegreya", Alegreya, "Iowan Old Style", "Palatino Linotype", Georgia, serif;
+      color: #555;
+    }
+    @top-right {
+      content: counter(page) " / " counter(pages);
+      font: 9pt "CV Alegreya", Alegreya, "Iowan Old Style", "Palatino Linotype", Georgia, serif;
+      color: #555;
+    }
+  }
+
+  @page :first {
+    @top-left { content: none; }
+    @top-center { content: none; }
+    @top-right { content: none; }
+  }
+
+  html,
+  body {
+    background: #fff !important;
+    color: #111 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  body > *:not(.cv-print) {
+    display: none !important;
+  }
+
+  .cv-print {
+    --cv-accent: #f39200;
+    display: block !important;
+    font-family: "CV Alegreya", Alegreya, "Iowan Old Style", "Palatino Linotype", "Book Antiqua", Georgia, serif;
+    font-size: 10.5pt;
+    line-height: 1.42;
+    color: #111;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  .cv-print a {
+    color: inherit !important;
+    text-decoration: none !important;
+  }
+  .cv-print a::after {
+    content: none !important;
+  }
+
+  .cv-print p {
+    margin: 0;
+  }
+
+  /* Header */
+  .cv-header {
+    display: flex;
+    align-items: center;
+    gap: 9mm;
+    margin-bottom: 7mm;
+  }
+  .cv-photo {
+    width: 32mm;
+    height: 32mm;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center 18%;
+    flex: none;
+  }
+  .cv-name {
+    margin-bottom: 3mm !important;
+    line-height: 1.1;
+  }
+  .cv-name strong {
+    font-size: 25pt;
+    font-weight: 700;
+  }
+  .cv-name em {
+    font-size: 17pt;
+    font-style: italic;
+    margin-left: 2mm;
+  }
+  .cv-contacts {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    justify-content: start;
+    column-gap: 7mm;
+    row-gap: 2.5mm;
+  }
+  .cv-contacts li {
+    display: flex;
+    align-items: center;
+    gap: 2.5mm;
+    font-size: 10.5pt;
+  }
+  .cv-icon {
+    width: 4.2mm;
+    height: 4.2mm;
+    fill: var(--cv-accent);
+    flex: none;
+  }
+
+  /* Sections */
+  .cv-section {
+    margin-bottom: 5mm;
+  }
+  .cv-heading {
+    display: flex;
+    align-items: center;
+    gap: 3mm;
+    margin: 0 0 3mm;
+    padding-bottom: 1mm;
+    border-bottom: 0.7mm solid var(--cv-accent);
+    font-family: inherit;
+    font-size: 13pt;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #111;
+    break-after: avoid;
+  }
+  .cv-heading-icon {
+    width: 5.5mm;
+    height: 5.5mm;
+    fill: #111;
+  }
+  .cv-section > p + p {
+    margin-top: 2.2mm;
+  }
+
+  /* Entries: content in the left column, period/location in the right column */
+  .cv-entry {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    column-gap: 8mm;
+    margin-bottom: 4mm;
+  }
+  .cv-entry > * {
+    grid-column: 1;
+  }
+  .cv-entry > .cv-entry-meta {
+    grid-column: 2;
+    grid-row: 1 / span 2;
+    text-align: right;
+    white-space: nowrap;
+  }
+  .cv-entry-title {
+    break-after: avoid;
+  }
+  .cv-upper {
+    text-transform: uppercase;
+  }
+  .cv-link-icon {
+    width: 3.2mm;
+    height: 3.2mm;
+    fill: #333;
+    margin-left: 1.2mm;
+    vertical-align: -0.3mm;
+  }
+  .cv-label {
+    font-weight: 700;
+  }
+  .cv-bullets {
+    margin: 0;
+    padding-left: 5mm;
+  }
+  .cv-bullets li {
+    margin: 0;
+    break-inside: avoid;
+  }
+  .cv-line {
+    margin-bottom: 2.2mm !important;
+  }
+  .cv-sep {
+    color: #777;
+    margin: 0 1mm;
+  }
+}

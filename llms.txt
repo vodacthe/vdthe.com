@@ -1,0 +1,49 @@
+# Vo Dac The — CTO - Chief Technology Officer & Hands-On Solution Architect
+
+> Technology leader and hands-on Software Engineering professional with nearly 10 years of experience (2016–Present) building high-availability distributed systems, multi-tenant microservices, cloud-native Kubernetes platforms, and pragmatic AI/LLM solutions across Travel Technology, Industrial IoT, and Identity & Access Management.
+
+## Core Identity & Availability
+- Name: Vo Dac The (VDT)
+- Role: CTO - Chief Technology Officer & Hands-On Solution Architect
+- Location: Ho Chi Minh, Vietnam
+- Experience: ~10 Years (2016–Present)
+- Email: work.thevo@gmail.com
+- Phone: +84 908 195 484
+- LinkedIn: https://www.linkedin.com/in/vodacthe
+- GitHub: https://github.com/vodacthe ("C# dev, bug lover")
+
+## Canonical Portfolio Pages
+- [Interactive Executive Portfolio (EN)](https://vdthe.com/): Official portfolio of Vo Dac The, CTO at Tripdata with nearly 10 years of experience in enterprise architecture, .NET microservices, Kubernetes, cloud infrastructure, TravelTech, Industrial IoT, IAM, and AI/LLM RAG solutions.
+- [Vietnamese Interactive Portfolio (VI)](https://vdthe.com/vi/): Hồ sơ năng lực chính thức của Vo Dac The — CTO tại Tripdata với gần 10 năm kinh nghiệm thiết kế kiến trúc doanh nghiệp, .NET microservices, Kubernetes, hạ tầng Cloud, TravelTech, Industrial IoT, IAM và AI/LLM RAG.
+- [Overview (Full Dossier)](https://vdthe.com/full/): Official portfolio of Vo Dac The, CTO at Tripdata with nearly 10 years of experience in enterprise architecture, .NET microservices, Kubernetes, cloud infrastructure, TravelTech, Industrial IoT, IAM, and AI/LLM RAG solutions.
+- [Experience](https://vdthe.com/experience/): Full career timeline of Vo Dac The across Tripdata (CTO), Yokogawa Electric Corporation (Technical Lead), NashTech (Senior Engineer), FPT Telecom (.NET Dev / PM), Én Việt JSC, Gameloft, and PIXA Studio.
+- [Projects & Open Source](https://vdthe.com/projects/): Deep-dive case studies in B2B TravelTech (Tripdata & SkyJet), Industrial IoT (OpreX Asset Health Insights), Biometric IAM (Evolution Wellness), and open-source Android, AR, 3D & Linux tools on GitHub.
+- [Skills & Architecture](https://vdthe.com/skills/): Complete engineering competency matrix: Technology Leadership, Microservices & Event-Driven Architecture, AI/LLM/RAG, Azure/AWS/Alibaba Cloud, Kubernetes, .NET Core, IAM/OIDC, and OpenTelemetry.
+- [Credentials & Awards](https://vdthe.com/credentials/): Verified certifications (Microsoft AZ-305, PMI Project Management Fundamentals, HasBrain Deep Learning Distinction), awards (NashTech Developer of the Year 2022), and leadership principles.
+- [Contact & References](https://vdthe.com/contact/): Connect with Vo Dac The for CTO leadership, enterprise architecture consulting, or strategic engineering roles. Includes executive references and machine-readable llms.txt & resume.json links.
+- [Vietnamese Version](https://vdthe.com/vi/): Full bilingual Vietnamese edition
+- [Full Technical Dossier](https://vdthe.com/llms-full.txt): Complete CV, architecture case studies, and open-source specifications
+- [JSON Resume](https://vdthe.com/resume.json): Machine-readable JSON Resume v1.0.0
+
+## Career Timeline Summary
+- **CTO – Chief Technology Officer** at Tripdata (12/2024 – Present, Ho Chi Minh, Vietnam) — B2B TravelTech & Digital Distribution
+- **Technical Lead / Solution Architecture Support** at Yokogawa Electric Corporation (09/2021 – 09/2024, Ho Chi Minh, Vietnam) — Industrial IoT (IIoT) & Asset Performance Management
+- **Senior Software Engineer** at NashTech (10/2020 – 02/2022, Ho Chi Minh, Vietnam) — Biometric Authentication & Enterprise IAM (Evolution Wellness)
+- **.NET Developer / Project Manager** at FPT Telecom (11/2019 – 10/2020, Ho Chi Minh, Vietnam) — Enterprise CRM & Automated Sales Lead Routing
+- **Developer / System Administrator** at Én Việt Joint Stock Company (06/2017 – 11/2019, Ho Chi Minh, Vietnam) — Travel Ticketing Operations & IT Infrastructure
+- **Game Tester** at Gameloft Vietnam (07/2016 – 04/2017, Ho Chi Minh, Vietnam) — Mobile Quality Assurance & Telemetry Validation
+- **Intern Mobile Game Developer (Unity)** at PIXA Studio (now PSA Solutions) (01/2016 – 05/2016, Ho Chi Minh, Vietnam) — Mobile Game Engineering & Monetization SDKs
+
+## Maker Lab, Closed-Source & Open-Source Projects
+- [Smart Companion & Smart Core (Smart Glasses Control Suite)](https://github.com/vodacthe/smart_companion) [Closed Source]: Closed-source paired Android ecosystem enabling smartphones to act as a low-friction remote control, HUD bridge, and file manager for Smart Glasses, Android TVs, and tablets.
+- [AR Air Mouse — Hands-Free Gesture Cursor for AR Glasses](https://github.com/vodacthe/ar_air_mouse) [Closed Source]: Closed-source spatial interaction app that eliminates reaching for a phone screen while wearing AR glasses by converting subtle head motion and natural micro-gestures into a virtual pointer.
+- [Decal Unwrap — Browser 3D-to-2D True-Scale Cut Template Engine](https://decal.vdthe.com/) [Open Source]: Turns painted regions on 3D printable models into millimeter-accurate 1:1 flat paper templates to print, cut, and wrap physically around 3D prints.
+- [FaceTrack 6-DoF — Android Head Tracker for Simulators](https://github.com/vodacthe/face_track) [Open Source]: Low-latency 6-Degrees-of-Freedom (X/Y/Z translation + Yaw/Pitch/Roll rotation) camera head-tracking for flight, racing, and space simulators.
+- [vdt-sys-agent — Zero-Dependency Linux Hardware Telemetry Agent](https://github.com/vodacthe/vdt-sys-agent) [Open Source]: Lightweight, one-line-install Linux server monitoring agent feeding real-time node metrics into the VDT Enterprise dashboard without pip or external runtime bloat.
+
+## Key Credentials
+- Microsoft Certified: AZ-305 (Designing Microsoft Azure Infrastructure Solutions) (Microsoft, Passed October 18, 2024)
+- Project Management Fundamentals: PMI Global Standard (PMI Global Standard, July 17, 2020)
+- Deep Learning Training: Certificate of Distinction (HasBrain, December 2018)
+- Award: Developer of the Year — NashTech (2022)
+- Award: Runner-up – City-Level Vocational Skills Competition (Web Design) — Ho Chi Minh City (2015)

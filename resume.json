@@ -1,0 +1,695 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Vo Dac The",
+    "label": "CTO - Chief Technology Officer & Hands-On Solution Architect",
+    "image": "https://vdthe.com/assets/vo-dac-the.jpg",
+    "email": "work.thevo@gmail.com",
+    "phone": "+84908195484",
+    "url": "https://vdthe.com/",
+    "summary": "Technology leader and hands-on Software Engineering professional with nearly 10 years of experience (2016–Present) building high-availability distributed systems, multi-tenant microservices, cloud-native Kubernetes platforms, and pragmatic AI/LLM solutions across Travel Technology, Industrial IoT, and Identity & Access Management. Bridging executive technology strategy with deep engineering execution — mentoring high-performing teams, hardening production observability, and turning complex business operations into resilient software platforms.",
+    "location": {
+      "city": "Ho Chi Minh City",
+      "countryCode": "VN",
+      "region": "Ho Chi Minh, Vietnam"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "vodacthe",
+        "url": "https://www.linkedin.com/in/vodacthe"
+      },
+      {
+        "network": "GitHub",
+        "username": "vodacthe",
+        "url": "https://github.com/vodacthe"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Tripdata",
+      "position": "CTO – Chief Technology Officer",
+      "startDate": "12/2024",
+      "endDate": "Present",
+      "summary": "Leading technology strategy, software engineering, and platform development at Tripdata, a B2B travel technology infrastructure company powering digital travel distribution, agent portals, and commercial consolidator operations (including ecosystems connected with SkyJet).",
+      "highlights": [
+        "Applied AI (Generative AI, LLM & RAG) to replace the traditional manual booker team — automating fare-rule/policy interpretation, booking diagnostics, and ticketing operations to optimize profit margins and maximize the end-user experience.",
+        "Built a flexible pricing-configuration system and strong B2B sales tooling: sub-agents at every tier can easily declare their own service fees, with clear, real-time profit and revenue reporting.",
+        "Established proactive operations monitoring (Prometheus, Grafana, Loki, OpenTelemetry) with early error alerting, cutting recovery time (RTO) dramatically compared with traditional travel systems.",
+        "Architected a high-load, multi-tenant microservices platform (PostgreSQL, RabbitMQ, YARP/Nginx) built to integrate with the region's leading OTAs.",
+        "Designed a flexible unified API: a single API set serving many domestic and international airlines, including foreign carriers.",
+        "Define company-wide technology strategy and roadmaps; lead and mentor engineering teams with clear standards, code review culture, and delivery best practices.",
+        "Oversee end-to-end B2B travel platforms covering domestic and international airline ticketing, hotel distribution, and specialized SOTO (Sold Outside, Ticketed Outside) / SITI (Sold Inside, Ticketed Inside) workflows.",
+        "Direct multi-cloud infrastructure (Azure, AWS), Docker/Kubernetes orchestration, and CI/CD automation (GitHub Actions, Azure DevOps)."
+      ],
+      "keywords": [
+        ".NET Core",
+        "C#",
+        "React",
+        "Flutter",
+        "Microservices",
+        "PostgreSQL",
+        "Kubernetes",
+        "Docker",
+        "Azure",
+        "AWS",
+        "RabbitMQ",
+        "YARP",
+        "Nginx",
+        "GitHub Actions",
+        "Azure DevOps",
+        "Prometheus",
+        "Grafana",
+        "Loki",
+        "OpenTelemetry",
+        "AI/LLM",
+        "RAG"
+      ]
+    },
+    {
+      "name": "Yokogawa Electric Corporation",
+      "position": "Technical Lead / Solution Architecture Support",
+      "startDate": "09/2021",
+      "endDate": "09/2024",
+      "summary": "Contributed to OpreX Asset Health Insights, Yokogawa's cloud-based Industrial IoT (IIoT) SaaS platform unifying operational technology (OT) sensor/process telemetry with IT systems for enterprise asset monitoring and operational intelligence.",
+      "highlights": [
+        "Built a robust IoT connectivity layer, load-tested with more than 2,000 devices connected concurrently without issue.",
+        "Delivered multi-platform device connectivity across MQTT, RabbitMQ, MQTTX, Azure, and other industrial channels, alongside real-time telemetry (SignalR, CoAP).",
+        "Applied machine learning to IoT telemetry to generate early-warning alerts and power flexible profit and cost calculation for plant operations.",
+        "Implemented strict role-based access control for multiple engineering teams — no team can exceed its granted permissions — using OpenID Connect (OIDC) and IdentityServer4, fit for enterprise systems.",
+        "Provided technical solutions and architectural recommendations; led technical discussions, sprint planning, and estimation across distributed engineering squads.",
+        "Mentored developers and enforced engineering standards through thorough code reviews and clean microservices boundaries in .NET Core / C#.",
+        "Supported multi-cloud deployments across Microsoft Azure, AWS, and Alibaba Cloud using Kubernetes, Docker, Terraform, Helm, and Azure DevOps CI/CD."
+      ],
+      "keywords": [
+        ".NET Core",
+        "C#",
+        "Microservices",
+        "PostgreSQL",
+        "Microsoft SQL Server",
+        "RabbitMQ",
+        "SignalR",
+        "CoAP",
+        "MQTT",
+        "Machine Learning",
+        "Azure",
+        "AWS",
+        "Alibaba Cloud",
+        "Kubernetes",
+        "Docker",
+        "Terraform",
+        "Helm",
+        "Azure DevOps",
+        "OIDC",
+        "IdentityServer4"
+      ]
+    },
+    {
+      "name": "NashTech",
+      "position": "Senior Software Engineer",
+      "startDate": "10/2020",
+      "endDate": "02/2022",
+      "summary": "Engineered enterprise software solutions for Evolution Wellness, one of Asia's largest fitness and wellness operators (brands including Fitness First and Celebrity Fitness), focusing on facial recognition verification, identity management, and physical access control.",
+      "highlights": [
+        "Developed facial recognition-based authentication capabilities to accurately identify and verify fitness club members.",
+        "Built identity management and membership verification microservices supporting secure, low-friction member check-ins.",
+        "Integrated backend services with physical facility access control hardware so only authorized members enter clubs.",
+        "Implemented strict authentication and authorization flows using IdentityServer4, OAuth 2.0, and OpenID Connect (OIDC) to protect sensitive member data.",
+        "Designed scalable .NET Core microservices on Microsoft Azure with Azure Service Bus and Microsoft SQL Server.",
+        "Proposed technical approaches, participated in solution design reviews, and collaborated directly with US-based stakeholders. Named NashTech Developer of the Year (2022)."
+      ],
+      "keywords": [
+        "C#",
+        ".NET Core",
+        "Microservices",
+        "Microsoft Azure",
+        "Azure Service Bus",
+        "Microsoft SQL Server",
+        "IdentityServer4",
+        "OAuth 2.0",
+        "OpenID Connect (OIDC)",
+        "REST APIs"
+      ]
+    },
+    {
+      "name": "FPT Telecom",
+      "position": ".NET Developer / Project Manager",
+      "startDate": "11/2019",
+      "endDate": "10/2020",
+      "summary": "Joined as a Software Developer and was nominated to assume Project Manager responsibilities after six months, delivering an enterprise Lead Management System with automated queue-based distribution.",
+      "highlights": [
+        "Architected and built backend business logic for customer lead intake, distribution, and tracking across sales teams.",
+        "Assumed Project Manager duties after 6 months: coordinating sprint delivery, tracking milestones, and aligning stakeholders.",
+        "Designed and implemented an automated queue-based lead assignment mechanism with a strict 15-minute SLA acceptance window — automatically re-queueing unaccepted leads to the end of the queue.",
+        "Applied Microservices and Service-Oriented Architecture (SOA) patterns to keep core distribution workflows modular.",
+        "Improved system throughput and database efficiency through Redis caching strategies and targeted SQL Server query optimization."
+      ],
+      "keywords": [
+        "C#",
+        ".NET",
+        "Microservices",
+        "SOA",
+        "Redis",
+        "Microsoft SQL Server",
+        "SQL Optimization",
+        "REST APIs"
+      ]
+    },
+    {
+      "name": "Én Việt Joint Stock Company",
+      "position": "Developer / System Administrator",
+      "startDate": "06/2017",
+      "endDate": "11/2019",
+      "summary": "Served in a dual IT Manager and Software Developer role at Én Việt JSC (an IATA-accredited ticketing enterprise), building internal business platforms while safeguarding Windows Server infrastructure and uptime.",
+      "highlights": [
+        "Developed internal business management software, corporate websites, backend services, and operational desktop/web applications.",
+        "Designed and implemented REST and SOAP Web APIs, background Windows Services, Webhooks, and WinForms internal tools.",
+        "Administered Windows Server infrastructure, ensuring system availability, network reliability, and operational continuity.",
+        "Created custom server-side automation utilities, infrastructure monitoring scripts, and alerting mechanisms for daily IT operations."
+      ],
+      "keywords": [
+        "C#",
+        ".NET Framework",
+        "ASP.NET",
+        "REST/SOAP APIs",
+        "Windows Services",
+        "WinForms",
+        "SQL Server",
+        "Windows Server"
+      ]
+    },
+    {
+      "name": "Gameloft Vietnam",
+      "position": "Game Tester",
+      "startDate": "07/2016",
+      "endDate": "04/2017",
+      "summary": "Executed functional, gameplay, device compatibility, and in-game analytics validation across mobile game builds in collaboration with engineering and QA teams.",
+      "highlights": [
+        "Executed structured functional and gameplay test suites to ensure adherence to production quality standards.",
+        "Validated in-game event tracking and analytics payloads against expected specifications.",
+        "Tested mobile builds via internal deployment servers and diagnostic tools across diverse mobile hardware.",
+        "Partnered with developers and cross-functional teams to reproduce, document, and verify bug fixes."
+      ],
+      "keywords": [
+        "Software Testing",
+        "Quality Assurance",
+        "Functional Testing",
+        "Mobile Application Testing",
+        "Bug Reporting"
+      ]
+    },
+    {
+      "name": "PIXA Studio (now PSA Solutions)",
+      "position": "Intern Mobile Game Developer (Unity)",
+      "startDate": "01/2016",
+      "endDate": "05/2016",
+      "summary": "Started professional software engineering career developing mobile gameplay mechanics in C# / Unity and integrating mobile monetization and in-app billing pipelines.",
+      "highlights": [
+        "Researched and implemented gameplay mechanics and new mobile game features in Unity & C#.",
+        "Maintained and debugged mobile game client functionality.",
+        "Integrated advertising and mediation SDKs including Google AdMob, Vungle, and Unity Ads.",
+        "Implemented in-app purchase (IAP) flows using Google Play In-App Billing."
+      ],
+      "keywords": [
+        "C#",
+        "Unity",
+        "Unity Ads",
+        "Google AdMob",
+        "Vungle",
+        "Google Play In-App Billing"
+      ]
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Microsoft Certified: AZ-305 (Designing Microsoft Azure Infrastructure Solutions)",
+      "date": "Passed October 18, 2024",
+      "issuer": "Microsoft",
+      "summary": "AZ-305 — Enterprise cloud solution architecture certification validating identity, governance, data storage, business continuity, and scalable Azure infrastructure design."
+    },
+    {
+      "name": "Project Management Fundamentals: PMI Global Standard",
+      "date": "July 17, 2020",
+      "issuer": "PMI Global Standard",
+      "summary": "PMF Number: 170720203260 — Formal project lifecycle management credential covering scope, scheduling, stakeholder alignment, risk control, and agile/hybrid delivery."
+    },
+    {
+      "name": "Deep Learning Training: Certificate of Distinction",
+      "date": "December 2018",
+      "issuer": "HasBrain",
+      "summary": "Certificate of Distinction — Intensive neural network and deep learning training completed with distinction, forming an early AI foundation prior to enterprise LLM & RAG integration."
+    }
+  ],
+  "awards": [
+    {
+      "title": "Developer of the Year",
+      "date": "2022",
+      "awarder": "NashTech",
+      "summary": "Recognized for outstanding technical contributions, architectural ownership on Evolution Wellness biometric IAM systems, and commitment to engineering excellence."
+    },
+    {
+      "title": "Runner-up – City-Level Vocational Skills Competition (Web Design)",
+      "date": "2015",
+      "awarder": "Ho Chi Minh City",
+      "summary": "Awarded second place in Ho Chi Minh City's vocational skills competition specializing in Web Design, recognizing strong front-end craft and problem-solving."
+    }
+  ],
+  "skills": [
+    {
+      "name": "Technology Leadership & Management",
+      "keywords": [
+        "Technology Strategy",
+        "Technical Leadership",
+        "Engineering Management",
+        "Technical Project Management",
+        "Software Development Lifecycle (SDLC)",
+        "Technical Decision-Making",
+        "Team Leadership",
+        "Team Mentoring & Coaching",
+        "Agile & Scrum",
+        "Sprint Planning",
+        "Code Review",
+        "Stakeholder Management",
+        "Product Engineering",
+        "Technology Roadmap Development",
+        "Engineering Process Improvement"
+      ]
+    },
+    {
+      "name": "Software Architecture & System Design",
+      "keywords": [
+        "Software Architecture",
+        "Solution Architecture",
+        "Microservices Architecture",
+        "Distributed Systems",
+        "Service-Oriented Architecture (SOA)",
+        "Multi-Tenant Architecture",
+        "Enterprise Application Architecture",
+        "Cloud-Native Architecture",
+        "API Design & Integration",
+        "Event-Driven Architecture",
+        "System Design",
+        "High Availability & Scalability"
+      ]
+    },
+    {
+      "name": "Artificial Intelligence & Emerging Technologies",
+      "keywords": [
+        "Artificial Intelligence (AI)",
+        "Generative AI",
+        "Large Language Models (LLM)",
+        "Retrieval-Augmented Generation (RAG)",
+        "AI Integration",
+        "AI Agents",
+        "Prompt Engineering",
+        "Vector Search",
+        "AI Workflow Automation",
+        "Microsoft Semantic Kernel"
+      ]
+    },
+    {
+      "name": "Cloud Computing & Infrastructure",
+      "keywords": [
+        "Microsoft Azure",
+        "Alibaba Cloud",
+        "Amazon Web Services (AWS)",
+        "Cloud Architecture",
+        "Cloud Infrastructure Management",
+        "Linux Server Administration",
+        "Windows Server Administration",
+        "Infrastructure as Code (IaC)",
+        "Terraform",
+        "Network & Server Administration"
+      ]
+    },
+    {
+      "name": "DevOps & Containerization",
+      "keywords": [
+        "Kubernetes",
+        "Docker",
+        "Helm",
+        "CI/CD Pipeline Design",
+        "Azure DevOps",
+        "GitHub Actions",
+        "Container Orchestration",
+        "Nginx",
+        "YARP",
+        "Production Deployment & Operations"
+      ]
+    },
+    {
+      "name": "Software Engineering & Programming",
+      "keywords": [
+        "C# / .NET",
+        "RESTful API Development",
+        "Backend Development",
+        "React.js",
+        "Flutter",
+        "JavaScript",
+        "Kotlin",
+        "Python",
+        "Windows Services"
+      ]
+    },
+    {
+      "name": "Database & Messaging",
+      "keywords": [
+        "PostgreSQL",
+        "Microsoft SQL Server",
+        "Redis",
+        "RabbitMQ",
+        "Azure Service Bus",
+        "Database Design",
+        "SQL Query Optimization",
+        "Database Performance Tuning",
+        "Database Administration",
+        "Connection Pooling",
+        "Asynchronous Processing"
+      ]
+    },
+    {
+      "name": "Security & Identity Management",
+      "keywords": [
+        "Identity & Access Management (IAM)",
+        "IdentityServer4",
+        "OpenID Connect (OIDC)",
+        "OAuth 2.0",
+        "Authentication & Authorization",
+        "Information Security",
+        "Secure API Development"
+      ]
+    },
+    {
+      "name": "Monitoring & Observability",
+      "keywords": [
+        "Prometheus",
+        "Grafana",
+        "Loki",
+        "Tempo",
+        "OpenTelemetry",
+        "System Monitoring",
+        "Application Performance Monitoring",
+        "Distributed Tracing",
+        "Logging & Alerting",
+        "Performance Optimization"
+      ]
+    },
+    {
+      "name": "Industry & Domain Expertise",
+      "keywords": [
+        "Travel Technology",
+        "B2B Travel Platforms",
+        "Airline Ticketing Systems",
+        "Hotel Distribution Systems",
+        "SOTO / SITI Ticketing Operations",
+        "Travel Agency Management Systems",
+        "Industrial IoT (IIoT)",
+        "Asset Health Monitoring",
+        "Enterprise SaaS Platforms",
+        "Digital Transformation"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Tripdata B2B Travel Infrastructure & AI Distribution Ecosystem",
+      "description": "Modernizing fragmented B2B airline ticketing, hotel distribution, and agency operations across multi-provider suppliers (GDS, LCCs, regional carriers, eSIM, transfers) and specialized SOTO/SITI ticketing channels.",
+      "highlights": [
+        "AI-driven operations (Generative AI, LLM & RAG) replacing the traditional booker team: automated fare-rule/policy interpretation and booking diagnostics that optimize profit and maximize the user experience.",
+        "Flexible pricing-configuration engine and B2B sales tooling — sub-agents easily declare their own service fees, with clear profit and revenue statistics in the Travel ERP.",
+        "One flexible unified Travel API serving many domestic and international airlines (including foreign carriers), with automated supplier fallback.",
+        "High-load multi-tenant .NET Core microservices behind YARP and Nginx, with PostgreSQL and RabbitMQ event pipelines, ready to connect with the region's leading OTAs.",
+        "Production Kubernetes on Azure and AWS with OpenTelemetry, Prometheus, Grafana, and Loki monitoring — early error alerts and far faster RTO than traditional systems."
+      ],
+      "keywords": [
+        ".NET Core",
+        "React",
+        "Flutter",
+        "PostgreSQL",
+        "RabbitMQ",
+        "YARP",
+        "Kubernetes",
+        "Azure/AWS",
+        "LLM & RAG",
+        "OpenTelemetry"
+      ],
+      "url": "https://tripdata.vn",
+      "roles": [
+        "Tripdata (with SkyJet consolidator operations)"
+      ],
+      "type": "enterprise"
+    },
+    {
+      "name": "OpreX Asset Health Insights — Multi-Cloud IIoT SaaS",
+      "description": "Enterprise plant asset monitoring and Asset Performance Management (APM) platform ingesting heterogeneous Operational Technology (OT) sensor streams and aggregating them into structured ISA-95 plant hierarchies.",
+      "highlights": [
+        "Robust IoT connectivity layer load-tested with 2,000+ concurrently connected devices without issue.",
+        "Multi-platform connectivity across MQTT, RabbitMQ, MQTTX, Azure, CoAP, and real-time SignalR streams, bridging OT devices with enterprise IT cloud analytics.",
+        "Machine learning on IoT telemetry for early-warning alerts and flexible profit and cost calculation.",
+        "Strict role-based access control for multiple engineering teams via IdentityServer4 and OpenID Connect (OIDC) — no one exceeds their granted permissions — built for enterprise systems.",
+        "Multi-cloud Kubernetes provisioned via Terraform & Helm across AWS, Microsoft Azure, and Alibaba Cloud, backed by PostgreSQL, Microsoft SQL Server, and RabbitMQ."
+      ],
+      "keywords": [
+        ".NET Core",
+        "Microservices",
+        "MQTT",
+        "RabbitMQ",
+        "Machine Learning",
+        "CoAP",
+        "SignalR",
+        "PostgreSQL",
+        "SQL Server",
+        "Terraform",
+        "Helm",
+        "Kubernetes",
+        "AWS/Azure/Alibaba Cloud",
+        "OIDC"
+      ],
+      "url": "https://www.yokogawa.com/vn/solutions/featured-topics/digital-transformation/yokogawa-cloud/asset-health-insights/",
+      "roles": [
+        "Yokogawa Electric Corporation"
+      ],
+      "type": "enterprise"
+    },
+    {
+      "name": "Biometric Facial Recognition & Facility Access Control Platform",
+      "description": "Securing and streamlining member identity verification and physical club turnstile entry across Evolution Wellness's regional fitness networks while safeguarding biometric and membership records.",
+      "highlights": [
+        "Designed .NET Core microservices handling facial recognition matching workflows, membership entitlement validation, and physical access hardware integration.",
+        "Secured inter-service and client boundaries with IdentityServer4, OAuth 2.0, and OpenID Connect (OIDC).",
+        "Deployed on Microsoft Azure utilizing Azure Service Bus for reliable asynchronous membership state synchronization and Microsoft SQL Server."
+      ],
+      "keywords": [
+        ".NET Core",
+        "C#",
+        "Microsoft Azure",
+        "Azure Service Bus",
+        "SQL Server",
+        "IdentityServer4",
+        "OAuth 2.0",
+        "OIDC"
+      ],
+      "roles": [
+        "NashTech · Client: Evolution Wellness"
+      ],
+      "type": "enterprise"
+    },
+    {
+      "name": "Queue-Based Automated Lead Management & SLA Routing Engine",
+      "description": "Eliminating manual lead cherry-picking and uneven response times across distributed telecom sales teams through deterministic queue orchestration.",
+      "highlights": [
+        "Built an automated queue-based lead assignment service enforcing a strict 15-minute acceptance SLA: unaccepted leads are automatically rotated back to the end of the distribution queue.",
+        "Structured around SOA and Microservices principles with Redis caching for hot queue/state reads and optimized SQL Server queries for reporting.",
+        "Led both technical backend implementation and project management coordination after 6 months on the project."
+      ],
+      "keywords": [
+        "C#",
+        ".NET",
+        "Microservices",
+        "SOA",
+        "Redis",
+        "Microsoft SQL Server",
+        "SQL Optimization",
+        "REST APIs"
+      ],
+      "roles": [
+        "FPT Telecom"
+      ],
+      "type": "enterprise"
+    },
+    {
+      "name": "Internal Aviation Ticketing ERP, Webhooks & Windows Server Automation",
+      "description": "Supporting daily airline agency operations, partner integrations, and 24/7 internal infrastructure reliability in an IATA ticketing enterprise.",
+      "highlights": [
+        "Engineered internal business management apps, REST & SOAP Web APIs, Windows Services, webhook receivers, and WinForms operational tools on .NET Framework & SQL Server.",
+        "Built server-side automation, health monitoring, and incident alerting scripts across Windows Server environments."
+      ],
+      "keywords": [
+        "C#",
+        ".NET Framework",
+        "ASP.NET",
+        "REST/SOAP APIs",
+        "Windows Services",
+        "WinForms",
+        "SQL Server",
+        "Windows Server"
+      ],
+      "roles": [
+        "Én Việt Joint Stock Company"
+      ],
+      "type": "enterprise"
+    },
+    {
+      "name": "Smart Companion & Smart Core (Smart Glasses Control Suite)",
+      "description": "Closed-source paired Android ecosystem enabling smartphones to act as a low-friction remote control, HUD bridge, and file manager for Smart Glasses, Android TVs, and tablets.",
+      "highlights": [
+        "Dual-app architecture: Smart Core runs on the target glasses/TV receiver while Smart Companion runs on the controller phone over Bluetooth.",
+        "Supports notification mirroring, HUD navigation cues, remote screen recording with live timer, and fast wireless directory/file transfers."
+      ],
+      "keywords": [
+        "Android",
+        "Bluetooth",
+        "HUD Navigation",
+        "Remote Control",
+        "File Transfer"
+      ],
+      "url": "https://github.com/vodacthe/smart_companion",
+      "roles": [
+        "github.com/vodacthe/smart_companion"
+      ],
+      "type": "closedsource"
+    },
+    {
+      "name": "AR Air Mouse — Hands-Free Gesture Cursor for AR Glasses",
+      "description": "Closed-source spatial interaction app that eliminates reaching for a phone screen while wearing AR glasses by converting subtle head motion and natural micro-gestures into a virtual pointer.",
+      "highlights": [
+        "Uses Android AccessibilityService API to render a floating virtual cursor and dispatch touch/scroll/navigation gestures globally.",
+        "Supports custom gesture mapping (including bite/tap triggers), zoom/scroll actions, and built-in Speech-to-Text dictation."
+      ],
+      "keywords": [
+        "Android",
+        "AccessibilityService",
+        "AR Glasses",
+        "Gesture Recognition",
+        "Speech-to-Text"
+      ],
+      "url": "https://github.com/vodacthe/ar_air_mouse",
+      "roles": [
+        "github.com/vodacthe/ar_air_mouse"
+      ],
+      "type": "closedsource"
+    },
+    {
+      "name": "Decal Unwrap — Browser 3D-to-2D True-Scale Cut Template Engine",
+      "description": "Turns painted regions on 3D printable models into millimeter-accurate 1:1 flat paper templates to print, cut, and wrap physically around 3D prints.",
+      "highlights": [
+        "100% client-side browser geometry pipeline supporting STL, OBJ, 3MF, PLY, and GLB files, plus 1:1 3D plate extrusion from scanned paper sketches.",
+        "Includes ridge-aware fill/brush/cut painting tools, low-stretch surface flattening, multi-sheet nesting (A2–A6, Letter, Legal), and PDF/SVG/DXF export."
+      ],
+      "keywords": [
+        "HTML5 / WebGL",
+        "3D Mesh Unwrapping",
+        "Computational Geometry",
+        "SVG / PDF / DXF"
+      ],
+      "url": "https://decal.vdthe.com/",
+      "roles": [
+        "github.com/vodacthe/decal-unwrap"
+      ],
+      "type": "opensource"
+    },
+    {
+      "name": "FaceTrack 6-DoF — Android Head Tracker for Simulators",
+      "description": "Low-latency 6-Degrees-of-Freedom (X/Y/Z translation + Yaw/Pitch/Roll rotation) camera head-tracking for flight, racing, and space simulators.",
+      "highlights": [
+        "Written in Kotlin for Android and engineered for compatibility with OpenTrack, FreeTrack 2.0 / TrackIR protocols, and SimHub.",
+        "Streams smooth head-pose telemetry over UDP to simulation titles such as MSFS 2020/2024, DCS World, ETS2, and Assetto Corsa."
+      ],
+      "keywords": [
+        "Kotlin",
+        "Android",
+        "6-DoF Tracking",
+        "OpenTrack",
+        "FreeTrack 2.0 / UDP",
+        "SimHub"
+      ],
+      "url": "https://github.com/vodacthe/face_track",
+      "roles": [
+        "github.com/vodacthe/face_track"
+      ],
+      "type": "opensource"
+    },
+    {
+      "name": "vdt-sys-agent — Zero-Dependency Linux Hardware Telemetry Agent",
+      "description": "Lightweight, one-line-install Linux server monitoring agent feeding real-time node metrics into the VDT Enterprise dashboard without pip or external runtime bloat.",
+      "highlights": [
+        "Built exclusively on Python 3.8+ standard library exposing HTTP endpoints secured via auto-generated x-api-key authentication.",
+        "Collects CPU, RAM, swap, disk, listening dev-server ports, top processes by CPU/RAM, and GPU metrics across NVIDIA, AMD, and Intel hardware."
+      ],
+      "keywords": [
+        "Python 3 Stdlib",
+        "Linux Telemetry",
+        "HTTP / API Key Auth",
+        "GPU / Process Monitoring",
+        "Bash Installer"
+      ],
+      "url": "https://github.com/vodacthe/vdt-sys-agent",
+      "roles": [
+        "github.com/vodacthe/vdt-sys-agent"
+      ],
+      "type": "opensource"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Technology Exploration & Innovation",
+      "keywords": [
+        "Passionate about exploring emerging technologies — particularly Artificial Intelligence, Generative AI, and modern distributed architecture — and converting new ideas into practical business value."
+      ]
+    },
+    {
+      "name": "Software Engineering & Problem Solving",
+      "keywords": [
+        "Enjoy designing scalable systems, diagnosing subtle infrastructure bottlenecks, and continuously elevating software quality, performance, and maintainability."
+      ]
+    },
+    {
+      "name": "Knowledge Sharing & Mentoring",
+      "keywords": [
+        "Committed to mentoring engineers, running high-signal architecture and code reviews, and growing collaborative, high-trust engineering teams."
+      ]
+    },
+    {
+      "name": "International Collaboration",
+      "keywords": [
+        "Experienced working with multicultural teams and international stakeholders across Vietnam, Japan, Southeast Asia, and the United States."
+      ]
+    },
+    {
+      "name": "Continuous Learning",
+      "keywords": [
+        "Lifelong learner staying curious across low-level Linux tooling, 3D geometry, spatial/AR hardware, enterprise cloud platforms, and executive leadership."
+      ]
+    }
+  ],
+  "references": [
+    {
+      "name": "Mr. Nguyễn Nhân Thiên Lộc — CEO, PSA Solutions",
+      "reference": "Former leadership at PIXA Studio (now PSA Solutions). Direct contact available upon request."
+    },
+    {
+      "name": "Mr. Trần Thanh Toàn — CEO, Tripdata & Skyjet",
+      "reference": "Current executive leadership partner at Tripdata. Direct contact available upon request."
+    },
+    {
+      "name": "Mr. Nguyễn Đức Châu Trí — Project Manager, NashTech Vietnam",
+      "reference": "Project leadership during Evolution Wellness delivery. Direct contact available upon request."
+    }
+  ],
+  "meta": {
+    "canonical": "https://vdthe.com/resume.json",
+    "version": "v1.0.0",
+    "llmsTxt": "https://vdthe.com/llms.txt"
+  }
+}

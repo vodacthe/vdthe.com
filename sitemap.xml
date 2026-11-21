@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://vdthe.com/</loc>
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vdthe.com/" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://vdthe.com/vi/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vdthe.com/" />
+  </url>
+  <url>
+    <loc>https://vdthe.com/vi/</loc>
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vdthe.com/" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://vdthe.com/vi/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vdthe.com/" />
+  </url>
+  <url>
+    <loc>https://vdthe.com/full/</loc>
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vdthe.com/full/" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://vdthe.com/vi/full/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vdthe.com/full/" />
+  </url>
+  <url>
+    <loc>https://vdthe.com/vi/full/</loc>
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vdthe.com/full/" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://vdthe.com/vi/full/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vdthe.com/full/" />
+  </url>
+  <url>
+    <loc>https://vdthe.com/experience/</loc>
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vdthe.com/experience/" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://vdthe.com/vi/experience/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vdthe.com/experience/" />
+  </url>
+  <url>
+    <loc>https://vdthe.com/vi/experience/</loc>
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vdthe.com/experience/" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://vdthe.com/vi/experience/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vdthe.com/experience/" />
+  </url>
+  <url>
+    <loc>https://vdthe.com/projects/</loc>
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vdthe.com/projects/" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://vdthe.com/vi/projects/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vdthe.com/projects/" />
+  </url>
+  <url>
+    <loc>https://vdthe.com/vi/projects/</loc>
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vdthe.com/projects/" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://vdthe.com/vi/projects/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vdthe.com/projects/" />
+  </url>
+  <url>
+    <loc>https://vdthe.com/skills/</loc>
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vdthe.com/skills/" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://vdthe.com/vi/skills/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vdthe.com/skills/" />
+  </url>
+  <url>
+    <loc>https://vdthe.com/vi/skills/</loc>
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vdthe.com/skills/" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://vdthe.com/vi/skills/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vdthe.com/skills/" />
+  </url>
+  <url>
+    <loc>https://vdthe.com/credentials/</loc>
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vdthe.com/credentials/" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://vdthe.com/vi/credentials/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vdthe.com/credentials/" />
+  </url>
+  <url>
+    <loc>https://vdthe.com/vi/credentials/</loc>
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vdthe.com/credentials/" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://vdthe.com/vi/credentials/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vdthe.com/credentials/" />
+  </url>
+  <url>
+    <loc>https://vdthe.com/contact/</loc>
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vdthe.com/contact/" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://vdthe.com/vi/contact/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vdthe.com/contact/" />
+  </url>
+  <url>
+    <loc>https://vdthe.com/vi/contact/</loc>
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vdthe.com/contact/" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://vdthe.com/vi/contact/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vdthe.com/contact/" />
+  </url>
+</urlset>
